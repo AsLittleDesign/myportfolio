@@ -1,0 +1,120 @@
+/*notes
+Colors:
+    red: #ff1345
+    blue: #1abc9c
+    white: #ecf0f1
+*/
+
+
+
+body {
+    background-color: #ecf0f1!important;
+}
+
+
+
+/* Sections */
+
+#section1 {
+    background-color: #1abc9c;
+    height: 60vh;
+}
+
+    #section1 img {
+        position: fixed;
+        text-align: center;
+        margin: auto;
+        height: auto;
+        width: 50%;
+        right: 0;
+        left: 0;
+    }
+
+    #section1 h3 {
+        position: fixed;
+        text-align: center;
+        margin: 150px auto 0;
+        height: auto;
+        color: #ffffff;
+        right: 0;
+        left: 0;
+    }
+
+    #diamond {
+        width: 200px;
+        height: 200px;
+        background-color: #1abc9c;
+        right: 0;
+        left: 0;
+        position: absolute;
+        margin: auto;
+        transform:rotate(45deg);
+        -ms-transform:rotate(45deg); /* IE 9 */
+        -webkit-transform:rotate(45deg); /* Opera, Chrome, and Safari */
+        z-index: -100;
+    }
+
+#section2 {
+    height: 103vh;
+}
+
+
+
+/*misc*/
+
+.hsContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hsContent {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.portfolio-group {
+    margin-top: 200px;
+}
+
+.portfolio-piece {
+    height: 200px;
+}
+
+.portfolio-pic {
+    background: transparent;
+    margin: 10px;
+    width: 100%;
+    height: 200px;
+    background-size: 100% auto;
+}
+
+.break {
+    margin-top: 30px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #section1 img {
+        width: 90%;
+    }
+
+    #section1 h3 {
+        margin: 100px auto 0;
+    }
+
+    #diamond {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #section2 button {
+        position: relative;
+        float: right;
+    }
+}
