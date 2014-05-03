@@ -63,6 +63,11 @@
 		<script>
 		require(['skrollr'], function(skrollr){
 			var s = skrollr.init();
+			if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+			    skrollr.init({
+			        forceHeight: false
+			    });
+			}
 		});
         </script>
 	</body>
