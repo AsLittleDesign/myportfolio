@@ -6,6 +6,7 @@ Colors:
 */
 
 
+
 body {
      background-color: #ecf0f1!important;
 }
@@ -28,6 +29,17 @@ h1 {
     width: 50%;
     right: 0;
     left: 0;
+}
+
+#section1 h1 {
+    position: fixed;
+    text-align: center;
+    margin: 80px auto 0;
+    height: auto;
+    color: #ffffff !important;
+    right: 0;
+    left: 0;
+    font-weight: lighter !important;
 }
 
 #section1 h3 {
@@ -94,6 +106,7 @@ h1 {
     padding-top: 85px;
     margin: 0;
     text-align: center;
+    color: #2c3e50 !important;
 }
 
 /*hover display*/
@@ -121,6 +134,11 @@ h1 {
 /*grid break*/
 .break {
     margin-top: 30px;
+}
+
+.osx {
+    background: url('/img/osx.jpg') #000000;
+    background-attachment: fixed;
 }
 
 @media only screen and (max-width: 600px) {
