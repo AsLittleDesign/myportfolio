@@ -9,7 +9,7 @@
         <meta name="keywords" content="Dave, Scott, McCarthy">
 	</head>
 	<body>
-		<section id="section1" class="osx">
+		<section id="section1" class="osx" style="background-color: #000000;">
 			<div style="width: 100%; height: 100%;" data-0="background-color:rgba(0,0,0,0);" data-500="background-color:rgba(0,0,0,.5);">
 				<div class="container">
 					<div class="hsContainer">
