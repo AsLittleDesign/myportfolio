@@ -148,7 +148,7 @@ h1 {
     font-size: 22px;
     font-weight: lighter;
     position: absolute;
-    letter-spacing: .2px;
+    letter-spacing: 1px;
 }
 
 .nav:hover {
