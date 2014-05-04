@@ -149,11 +149,25 @@ h1 {
     font-weight: lighter;
     position: absolute;
     letter-spacing: 1px;
+    width: 100px;
+    float: left;
 }
 
 .nav:hover {
     text-decoration: underline;
     color: #ffffff;
+}
+
+.arrow {
+    width: 15px;
+    height: 15px;
+    float: left;
+    border-right: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+    transform:rotate(135deg);
+    -ms-transform:rotate(135deg); /* IE 9 */
+    -webkit-transform:rotate(135deg); /* Opera, Chrome, and Safari */
+    margin-top: 7px;
 }
 
 
