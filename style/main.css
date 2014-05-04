@@ -6,7 +6,16 @@ Colors:
 */
 
 
+body {
+     background-color: #ecf0f1!important;
+}
 
+h1 {
+    text-align: center;
+    color: #2c3e50 !important;
+    margin-bottom: 25px !important;
+    font-weight: bold !important;
+}
 
 
 /* Sections */
@@ -44,7 +53,7 @@ Colors:
 
 
 
-/*misc*/
+/*parallax*/
 
 .hsContainer {
     width: 100%;
@@ -59,8 +68,11 @@ Colors:
     width: 100%;
 }
 
+
+/*portfolio*/
+
 .portfolio-group {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .portfolio-piece {
@@ -75,9 +87,16 @@ Colors:
     background-size: 100% auto;
 }
 
-.break {
-    margin-top: 30px;
+.portfolio-placeholder {
+    background: #fbfbfb;
+    width: 100%;
+    height: 100%;
+    padding-top: 85px;
+    margin: 0;
+    text-align: center;
 }
+
+/*hover display*/
 
 .hover-display {
     background-color: transparent;
@@ -95,6 +114,13 @@ Colors:
 
 .hover-display h3 {
     margin-top: 0 !important;
+    font-weight: bold !important;
+}
+
+
+/*grid break*/
+.break {
+    margin-top: 30px;
 }
 
 @media only screen and (max-width: 600px) {

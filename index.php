@@ -22,6 +22,7 @@
 		<section id="section2">
 			<div class="container">
 				<div class="portfolio-group">
+					<h1>Recent Projects</h1>
 					<div class="row">
 						<div class="col-md-4 portfolio-piece">
 							<div class="portfolio-pic" style="background-image: url('img/osx_promo.png')">
@@ -40,7 +41,9 @@
 							</div>
 						</div>
 						<div class="col-md-4 portfolio-piece">
-							<div class="portfolio-pic" style=""></div>
+							<div class="portfolio-pic" style="">
+								<h3 class="portfolio-placeholder">More coming soon!</h3>
+							</div>
 						</div>
 					</div>
 					<div class="row break">
