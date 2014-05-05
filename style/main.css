@@ -11,6 +11,13 @@ body {
      background-color: #ecf0f1!important;
 }
 
+p {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: .5px;
+    /*text-align: justify;*/
+}
+
 h1 {
     text-align: center;
     color: #2c3e50 !important;
@@ -169,6 +176,36 @@ h1 {
     -webkit-transform:rotate(135deg); /* Opera, Chrome, and Safari */
     margin-top: 7px;
 }
+
+.article {
+    margin-top: 150px;
+}
+
+.article h1 {
+    margin-top: 100px;
+}
+
+.article h3 {
+    color: #2c3e50;
+    margin: 50px 0 10px;
+}
+
+.mockup {
+    width: 100%;
+    height: auto;
+}
+
+.twitter-share-button {
+    float: right;
+    margin: 20px 0;
+}
+
+.fb-share-button {
+    float: right;
+    margin: 20px;
+}
+
+
 
 
 @media only screen and (max-width: 600px) {

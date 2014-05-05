@@ -4,6 +4,7 @@
 		<?php
 			include('inc/head.php');
 		?>
+		<title>Dave Scott Mccarthy</title>
 	</head>
 	<body>
 		<section id="section1">
