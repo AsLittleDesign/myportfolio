@@ -10,7 +10,7 @@
 		<section id="section1">
 			<div class="container">
 				<div class="hsContainer">
-		    		<div id="skrollr-body" class="hsContent" data-0="top: 20vh; opacity: 1;" data-425="top: 5vh; opacity: 0;">
+		    		<div class="hsContent" data-0="top: 20vh; opacity: 1;" data-425="top: 5vh; opacity: 0;">
 						<img src="img/logo.svg" alt="">
 						<h3>UI & UX Designer</h3>
 		    		</div>
@@ -20,7 +20,7 @@
 		<section id="section2">
 			<div class="container">
 				<div class="portfolio-group">
-					<h1>Recent Projects</h1>
+					<h1 id="skrollr-body">Recent Projects</h1>
 					<div class="row">
 						<div class="col-md-4 portfolio-piece">
 							<div class="portfolio-pic" style="background-image: url('img/osx_promo.png')">
