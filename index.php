@@ -29,18 +29,21 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 portfolio-piece">
+					<!-- <div class="col-md-4 portfolio-piece">
 						<div class="portfolio-pic" style="background-position: 50%; background-image: url('img/fistbump_promo.png')">
 							<div class="hover-display" onclick="window.location = 'newurl.php';">
 								<h3>Fist Bump</h3>
 								<p>An application based on the idea that it should be fast and easy to connect with friends.</p>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<div class="col-md-4 portfolio-piece">
 						<div class="portfolio-pic" style="">
 							<h3 class="portfolio-placeholder">More coming soon!</h3>
 						</div>
+					</div>
+					<div class="col-md-4 portfolio-piece">
+						<div class="portfolio-pic" style=""></div>
 					</div>
 				</div>
 				<div class="row break">
