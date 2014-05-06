@@ -28,6 +28,11 @@ h1 {
 
 /* Sections */
 
+#section1 {
+    background-color: #1abc9c;
+    height: 60vh;
+}
+
 #section1 img {
     position: fixed;
     text-align: center;
@@ -57,11 +62,6 @@ h1 {
     color: #ffffff;
     right: 0;
     left: 0;
-}
-
-#section1 {
-    background-color: #1abc9c;
-    height: 60vh;
 }
 
 #section2 {
