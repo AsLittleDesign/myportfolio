@@ -17,9 +17,9 @@
 	        	</div>
 			</div>
 		</section>
-		<section id="section2">
+		<section id="section2 skrollr-body">
 			<div class="container">
-				<div class="portfolio-group" id="skrollr-body">
+				<div class="portfolio-group">
 					<h1>Recent Projects</h1>
 					<div class="row">
 						<div class="col-md-4 portfolio-piece">
