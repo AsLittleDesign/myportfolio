@@ -10,7 +10,7 @@
 		<section id="section1">
 			<div class="container">
 				<div class="hsContainer">
-		    		<div class="hsContent" data-0="top: 20vh; opacity: 1;" data-425="top: 5vh; opacity: 0;">
+		    		<div id="skrollr-body" class="hsContent" data-0="top: 20vh; opacity: 1;" data-425="top: 5vh; opacity: 0;">
 						<img src="img/logo.svg" alt="">
 						<h3>UI & UX Designer</h3>
 		    		</div>

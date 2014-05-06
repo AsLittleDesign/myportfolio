@@ -20,7 +20,7 @@
 				<div class="container">
 					<a href="/" class="nav"><div class="arrow"></div>Home</a>
 					<div class="hsContainer">
-			    		<div class="hsContent" data-0="top: 20vh; opacity: 1;" data-425="top: 5vh; opacity: 0;">
+			    		<div id="skrollr-body" class="hsContent" data-0="top: 20vh; opacity: 1;" data-425="top: 5vh; opacity: 0;">
 							<h1>OS X 10.10 "Everest"</h1>
 							<h3>A Mac OS concept.</h3>
 			    		</div>
@@ -98,6 +98,10 @@
 				</div>
 			</div>
 		</section>
+		<br>
+		<br>
+		<br>
+		<p>Thank you for checking out my OS X 10.10 concept!</p>
 		<?php
 			include('inc/environment.php')
 		?>
