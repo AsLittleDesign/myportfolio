@@ -151,7 +151,7 @@ section {
     color: #ffffff;
     font-size: 22px;
     font-weight: lighter;
-    position: absolute;
+    position: fixed;
     letter-spacing: 1px;
     width: 100px;
     float: left;
