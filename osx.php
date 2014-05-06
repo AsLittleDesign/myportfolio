@@ -107,11 +107,12 @@
 					<p>An often used, often taken for granted app. I decided to take a stab at this as my fourth and final application. As one of the cornerstones of OS X, I decided that I needed to redesign it if I were to create this concept. Keeping the design consistent with the rest of the operating system, I removed some buttons, and simplified the interface. I also decided it would be helpful to be able to go directly to a file path via the search bar.</p>
 				</div>
 			</div>
+			<br>
+			<br>
+			<br>
+			<p>Thank you for checking out my OS X 10.10 concept!</p>
 		</section>
-		<br>
-		<br>
-		<br>
-		<p>Thank you for checking out my OS X 10.10 concept!</p>
+		
 		<?php
 			include('inc/environment.php')
 		?>
