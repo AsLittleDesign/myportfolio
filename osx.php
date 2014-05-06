@@ -16,7 +16,7 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 		<section id="section1" class="osx" style="background-color: #000000;">
-			<div style="width: 100%; height: 100%;" data-0="background-color:rgba(0,0,0,0);" data-500="background-color:rgba(0,0,0,.75);">
+			<!-- <div style="width: 100%; height: 100%;" data-0="background-color:rgba(0,0,0,0);" data-500="background-color:rgba(0,0,0,.75);"> -->
 				<div class="container">
 					<a href="/" class="nav"><div class="arrow"></div>Home</a>
 					<div class="hsContainer">
@@ -26,9 +26,18 @@
 			    		</div>
 		        	</div>
 	        	</div>
-			</div>
+			<!-- </div> -->
 		</section>
-		
+		<!-- <section id="section1">
+			<div class="container">
+				<div class="hsContainer">
+		    		<div class="hsContent" data-0="top: 20vh; opacity: 1;" data-425="top: 5vh; opacity: 0;">
+						<img src="img/logo.svg" alt="">
+						<h3>UI & UX Designer</h3>
+		    		</div>
+	        	</div>
+			</div>
+		</section> -->
 		<section class="article" id="skrollr-body">
 		<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
