@@ -15,7 +15,7 @@
 	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>` -->
-		<section id="section1"> <!--  style="background: url('img/osx.jpg') #000000; background-attachment: fixed;" -->
+		<section id="section1" style="background: url('img/osx.jpg') #000000; background-attachment: fixed;">
 			<div class="container">
 				<div class="hsContainer">
 		    		<div class="hsContent" data-0="top: 20vh; opacity: 1;" data-425="top: 5vh; opacity: 0;">
@@ -108,7 +108,7 @@
 		<script>
 			require(['skrollr'], function(skrollr){
 				var s = skrollr.init();
-				if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+				if(!isMobile()) {
 				    skrollr.init({
 				        forceHeight: false
 				    });
