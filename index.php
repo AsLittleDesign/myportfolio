@@ -17,10 +17,10 @@
 	        	</div>
 			</div>
 		</section>
-		<section id="section2">
+		<section id="section2 skrollr-body">
 			<div class="container">
 				<div class="portfolio-group">
-					<h1 id="skrollr-body">Recent Projects</h1>
+					<h1>Recent Projects</h1>
 					<div class="row">
 						<div class="col-md-4 portfolio-piece">
 							<div class="portfolio-pic" style="background-image: url('img/osx_promo.png')">
