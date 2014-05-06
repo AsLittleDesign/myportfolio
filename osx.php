@@ -55,7 +55,7 @@
 				<img class="mockup" src="img/osxdock.png" alt="">
 				<div class="col-md-8 col-md-offset-2">
 					<h3>The status bar</h3>
-					<p>The status bar also got an upgrade. In addition to simplifying the right side, I added something that I'd like to call “Adaptive Status”. What Adaptive Status does is display information of interest to you. Whether it’s the song that you’re listening to, or your stock portfolio going up, It displays quick information that you can look at any time - which is the point of a status bar.</p>
+					<p>The status bar also got an upgrade. In addition to simplifying the right side, I added something that I'd like to call “Adaptive Status”. What Adaptive Status does is display information of interest to you. Whether it’s the song that you’re listening to, or your stock portfolio going up, it displays quick information that you can look at any time - which is the point of a status bar.</p>
 					<img class="mockup" src="img/osxadaptive.png" alt="">
 					<h1>Spotlight...</h1>
 				</div>
@@ -65,8 +65,14 @@
 					<img src="img/osxspotlight+.png" alt="" class="mockup">
 					<p>You may recognize the icon as Siri, the iOS voice assistant. I truly believe Siri’s addition to OS X is long overdue. After long deliberation on how to add Siri to the operating system, I decided that there is no better way than integrating it with spotlight. Spotlight acts as a quick way to launch apps, and open files, and Siri is another great way to quickly and conveniently perform tasks without stopping what you’re doing.</p>
 					<p>The current keybinding for spotlight is command+[space], and with this change, holding down command+space for over 2 seconds will activate Siri.</p>
-					<h1>Control enter...</h1>
+					<h1>Control Center...</h1>
 				</div>
+				<img src="img/osxcontrol.png" alt="" class="mockup">
+				<div class="col-md-8 col-md-offset-2">
+					<p>Another feature that is desperately needed in OS X is the Control Center. One of my favorite features in iOS is this fantastic control panel that allows you to seamlessly control your music, turn on your flashlight, and more from within any app. A version of this made for desktop helps not only to add functionality, but also to clean up the status bar. I moved many of the status bar functions such as the wifi, volume, and bluetooth controls there. Using a mirror of the gesture that opens your notification center to open it, this is a valuable addition to the interface.</p>
+					<h1>Notification Center...</h1>
+				</div>
+				<img src="img/osxnotification.png" alt="" class="mockup">
 			</div>
 		</section>
 		<?php
