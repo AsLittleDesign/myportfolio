@@ -78,11 +78,10 @@ h1 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    position: relative;
 }
 
 .hsContent {
-    position: absolute;
+    position: fixed;
     top: 50%;
     width: 100%;
 }
