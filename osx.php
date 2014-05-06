@@ -45,7 +45,7 @@
 					<p>I didn’t want to go so over the top with the design that it wouldn’t conceivably be done. Keeping it realistic I felt was important.</p>
 					<h3>Simplify</h3>
 					<p>Over the years, more and more features and apps have been added without an overhaul of the operating system. More features are great, but it’s at the cost of adding more, and more buttons. I want to hide all but the essentials, making for a simpler, more efficient interface.</p>
-					<h1>The desktop…</h1>
+					<h1>The Desktop…</h1>
 				</div>
 				<img class="mockup" src="img/osxmockup.png" alt="">
 				<div class="col-md-8 col-md-offset-2">
@@ -64,7 +64,7 @@
 					<p>A visual upgrade of spotlight isn’t a big deal, but the icon next to it is. Let’s take a closer look!</p>
 					<img src="img/osxspotlight+.png" alt="" class="mockup">
 					<p>You may recognize the icon as Siri, the iOS voice assistant. I truly believe Siri’s addition to OS X is long overdue. After long deliberation on how to add Siri to the operating system, I decided that there is no better way than integrating it with spotlight. Spotlight acts as a quick way to launch apps, and open files, and Siri is another great way to quickly and conveniently perform tasks without stopping what you’re doing.</p>
-					<p>The current keybinding for spotlight is command+[space], and with this change, holding down command+space for over 2 seconds will activate Siri.</p>
+					<p>The current keybinding for spotlight is command+space, and with this change, holding down command+space for over 2 seconds will activate Siri.</p>
 					<h1>Control Center...</h1>
 				</div>
 				<img src="img/osxcontrol.png" alt="" class="mockup">
@@ -73,6 +73,29 @@
 					<h1>Notification Center...</h1>
 				</div>
 				<img src="img/osxnotification.png" alt="" class="mockup">
+				<div class="col-md-8 col-md-offset-2">
+					<p>One necessary change I made was a new notification center. I felt that bringing it more in line with the iOS version would make it much more useful than it is now. I went with a notifications, and today tab, rather than the today, all, and missed tabs in iOS 7 to focus and simplify notification center.</p>
+					<h1>iTunes...</h1>
+				</div>
+				<img src="img/osxitunes.png" alt="" class="mockup">
+				<div class="col-md-8 col-md-offset-2">
+					<p>With a dated, cluttered interface, iTunes is one of the biggest things I wanted to redesign. With strong elements of translucency, combined with a simpler interface and a more beautiful music player, this version of iTunes would create a more powerful user experience.</p>
+					<h1>Safari...</h1>
+				</div>
+				<img src="img/osxsafari.png" alt="" class="mockup">
+				<div class="col-md-8 col-md-offset-2">
+					<p>Safari is an application that has been overrun with buttons, and I felt the need to change that. With a more minimalistic design heavily pulling from iOS 7, I wanted Safari to emphasize the content within. </p>
+					<h1>Mail...</h1>
+				</div>
+				<img src="img/osxmail.png" alt="" class="mockup">
+				<div class="col-md-8 col-md-offset-2">
+					<p>Yet another application flooded with buttons. While it’s harder to avoid in Mail, I was still able to simplify the interface, and take on a flatter, cleaner interface. This would make Mail much more pleasant to use.</p>
+					<h1>Finder...</h1>
+				</div>
+				<img src="img/osxfinder.png" alt="" class="mockup">
+				<div class="col-md-8 col-md-offset-2">
+					<p>An often used, often taken for granted app. I decided to take a stab at this as my fourth and final application. As one of the cornerstones of OS X, I decided that I needed to redesign it if I were to create this concept. Keeping the design consistent with the rest of the operating system, I removed some buttons, and simplified the interface. I also decided it would be helpful to be able to go directly to a file path via the search bar.</p>
+				</div>
 			</div>
 		</section>
 		<?php
