@@ -15,29 +15,28 @@
 	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
-		<section id="section1" class="osx" style="background-color: #000000;">
-			<!-- <div style="width: 100%; height: 100%;" data-0="background-color:rgba(0,0,0,0);" data-500="background-color:rgba(0,0,0,.75);"> -->
-				<div class="container">
-					<a href="/" id="skrollr-body" class="nav"><div class="arrow"></div>Home</a>
-					<div class="hsContainer">
-			    		<div  class="hsContent" data-0="top: 20vh; opacity: 1;" data-425="top: 5vh; opacity: 0;">
-							<h1>OS X 10.10 "Everest"</h1>
-							<h3>A Mac OS concept.</h3>
-			    		</div>
-		        	</div>
-	        	</div>
-			<!-- </div> -->
-		</section>
-		<!-- <section id="section1">
+		<!-- <section id="section1" class="osx">
 			<div class="container">
+				<a href="/" id="skrollr-body" class="nav"><div class="arrow"></div>Home</a>
+				<div class="hsContainer">
+		    		<div  class="hsContent" data-0="top: 20vh; opacity: 1;" data-425="top: 5vh; opacity: 0;">
+						<h1>OS X 10.10 "Everest"</h1>
+						<h3>A Mac OS concept.</h3>
+		    		</div>
+	        	</div>
+        	</div>
+		</section> -->
+		<section id="section1" style="background: url('img/osx.jpg') #000000; background-attachment: fixed;">
+			<div class="container">
+				<a href="/" id="skrollr-body" class="nav"><div class="arrow"></div>Home</a>
 				<div class="hsContainer">
 		    		<div class="hsContent" data-0="top: 20vh; opacity: 1;" data-425="top: 5vh; opacity: 0;">
-						<img src="img/logo.svg" alt="">
-						<h3>UI & UX Designer</h3>
+						<h1>OS X 10.10 "Everest"</h1>
+						<h3>A Mac OS concept.</h3>
 		    		</div>
 	        	</div>
 			</div>
-		</section> -->
+		</section>
 		<section class="article" id="skrollr-body">
 		<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -106,11 +105,12 @@
 				<div class="col-md-8 col-md-offset-2">
 					<p>An often used, often taken for granted app. I decided to take a stab at this as my fourth and final application. As one of the cornerstones of OS X, I decided that I needed to redesign it if I were to create this concept. Keeping the design consistent with the rest of the operating system, I removed some buttons, and simplified the interface. I also decided it would be helpful to be able to go directly to a file path via the search bar.</p>
 				</div>
+				<br>
+				<br>
+				<br>
+				<p>Thank you for checking out my OS X 10.10 concept!</p>
 			</div>
-			<br>
-			<br>
-			<br>
-			<p>Thank you for checking out my OS X 10.10 concept!</p>
+			
 		</section>
 		
 		<?php
