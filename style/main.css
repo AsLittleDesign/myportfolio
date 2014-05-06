@@ -25,12 +25,16 @@ h1 {
     font-weight: bold !important;
 }
 
+section {
+    background-color: #ecf0f1;
+}
 
 /* Sections */
 
 #section1 {
     background-color: #1abc9c;
     height: 60vh;
+    max-height: 1200px;
 }
 
 #section1 img {

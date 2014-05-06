@@ -17,7 +17,7 @@
 	}(document, 'script', 'facebook-jssdk'));</script>` -->
 		<section id="section1"> <!--  style="background: url('img/osx.jpg') #000000; background-attachment: fixed;" -->
 			<div class="container">
-				<!-- <a href="/" id="skrollr-body" class="nav"><div class="arrow"></div>Home</a> -->
+				<a href="/" id="skrollr-body" class="nav"><div class="arrow"></div>Home</a>
 				<div class="hsContainer">
 		    		<div class="hsContent" data-0="top: 20vh; opacity: 1;" data-425="top: 5vh; opacity: 0;">
 						<h1>OS X 10.10 "Everest"</h1>
