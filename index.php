@@ -17,43 +17,41 @@
 	        	</div>
 			</div>
 		</section>
-		<section id="section2 skrollr-body">
+		<section class="portfolio-group" id="skrollr-body">
 			<div class="container">
-				<div class="portfolio-group">
-					<h1>Recent Projects</h1>
-					<div class="row">
-						<div class="col-md-4 portfolio-piece">
-							<div class="portfolio-pic" style="background-image: url('img/osx_promo.png')">
-								<div class="hover-display" onclick="window.location = 'osx.php';">
-									<h3>OS X 10.10 "Everest"</h3>
-									<p>A conceptual redesign of the current Mac OS that shows what it could look like soon.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 portfolio-piece">
-							<div class="portfolio-pic" style="background-position: 50%; background-image: url('img/fistbump_promo.png')">
-								<div class="hover-display" onclick="window.location = 'newurl.php';">
-									<h3>Fist Bump</h3>
-									<p>An application based on the idea that it should be fast and easy to connect with friends.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 portfolio-piece">
-							<div class="portfolio-pic" style="">
-								<h3 class="portfolio-placeholder">More coming soon!</h3>
+				<h1>Recent Projects</h1>
+				<div class="row">
+					<div class="col-md-4 portfolio-piece">
+						<div class="portfolio-pic" style="background-image: url('img/osx_promo.png')">
+							<div class="hover-display" onclick="window.location = 'osx.php';">
+								<h3>OS X 10.10 "Everest"</h3>
+								<p>A conceptual redesign of the current Mac OS that shows what it could look like soon.</p>
 							</div>
 						</div>
 					</div>
-					<div class="row break">
-						<div class="col-md-4 portfolio-piece">
-							<div class="portfolio-pic" style=""></div>
+					<div class="col-md-4 portfolio-piece">
+						<div class="portfolio-pic" style="background-position: 50%; background-image: url('img/fistbump_promo.png')">
+							<div class="hover-display" onclick="window.location = 'newurl.php';">
+								<h3>Fist Bump</h3>
+								<p>An application based on the idea that it should be fast and easy to connect with friends.</p>
+							</div>
 						</div>
-						<div class="col-md-4 portfolio-piece">
-							<div class="portfolio-pic" style=""></div>
+					</div>
+					<div class="col-md-4 portfolio-piece">
+						<div class="portfolio-pic" style="">
+							<h3 class="portfolio-placeholder">More coming soon!</h3>
 						</div>
-						<div class="col-md-4 portfolio-piece">
-							<div class="portfolio-pic" style=""></div>
-						</div>
+					</div>
+				</div>
+				<div class="row break">
+					<div class="col-md-4 portfolio-piece">
+						<div class="portfolio-pic" style=""></div>
+					</div>
+					<div class="col-md-4 portfolio-piece">
+						<div class="portfolio-pic" style=""></div>
+					</div>
+					<div class="col-md-4 portfolio-piece">
+						<div class="portfolio-pic" style=""></div>
 					</div>
 				</div>
 			</div>

@@ -64,13 +64,6 @@ h1 {
     left: 0;
 }
 
-#section2 {
-    height: 103vh;
-    background-color: #ecf0f1!important;
-    z-index: 1;
-}
-
-
 
 /*parallax*/
 
@@ -91,6 +84,7 @@ h1 {
 
 .portfolio-group {
     margin-top: 150px;
+    background-color: #ecf0f1;
 }
 
 .portfolio-piece {
