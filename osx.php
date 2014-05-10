@@ -7,14 +7,14 @@
 		<title>OS X 10.10 "Everest"</title>
 	</head>
 	<body>
-	<!-- <div id="fb-root"></div>
+	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
 	  if (d.getElementById(id)) return;
 	  js = d.createElement(s); js.id = id;
 	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
 	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>` -->
+	}(document, 'script', 'facebook-jssdk'));</script>
 		<section id="section1" style="background: url('img/osx.jpg') #000000; background-attachment: fixed;">
 			<div class="container">
 				<div class="hsContainer">
@@ -27,9 +27,9 @@
 			</div>
 		</section>
 		<section class="article" id="skrollr-body">
-		<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		<div class="fb-share-button" data-href="http://davesmdesign.com/osx.php" data-width="100" data-type="button_count"></div> -->
+		<div class="fb-share-button" data-href="http://davesmdesign.com/osx.php" data-width="100" data-type="button_count"></div>
 			<div class="container">
 				<div class="col-md-8 col-md-offset-2">
 					<p><strong>WWDC</strong> is coming up on June 2nd, and one of the biggest expected unveilings is OS X 10.10, codenamed “Syrah”. It is expected to have an updated look, more closely in line with the aesthetic taken on by iOS 7 last fall. While I like to keep up with the computing industry as a whole, Apple’s unveilings tend to be especially intriguing. This time around, I decided to take a stab at a conceptual redesign of the current Mac operating system.</p>
@@ -93,11 +93,12 @@
 				<img src="img/osxfinder.png" alt="" class="mockup">
 				<div class="col-md-8 col-md-offset-2">
 					<p>An often used, often taken for granted app. I decided to take a stab at this as my fourth and final application. As one of the cornerstones of OS X, I decided that I needed to redesign it if I were to create this concept. Keeping the design consistent with the rest of the operating system, I removed some buttons, and simplified the interface. I also decided it would be helpful to be able to go directly to a file path via the search bar.</p>
+					<br>
+					<br>
+					<br>
+					<p>Thank you for checking out my OS X 10.10 concept! If you liked it, please share it with your friends!</p>
 				</div>
-				<br>
-				<br>
-				<br>
-				<p>Thank you for checking out my OS X 10.10 concept!</p>
+				
 			</div>
 			
 		</section>

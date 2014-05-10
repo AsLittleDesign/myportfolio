@@ -32,7 +32,8 @@ section {
 /* Sections */
 
 #section1 {
-    background-color: #1abc9c;
+    background: #1abc9c;
+    background-attachment: fixed;
     height: 60vh;
     max-height: 1200px;
 }
