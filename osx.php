@@ -100,6 +100,13 @@
 					<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 					<div class="fb-share-button" data-href="http://davesmdesign.com/osx.php" data-width="100" data-type="button_count"></div>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<p style="font-size: 14px;">*Credit to Edgar Rios for the idea of combining the Control Center and the Apple menu.</p>
+					<p style="font-size: 14px;">*Credit to <a href="http://www.deviantart.com/art/Everest-216901989">RurouniVash</a> for the awesome wallpaper.</p>
 				</div>
 				
 			</div>
