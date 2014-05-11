@@ -27,9 +27,6 @@
 			</div>
 		</section>
 		<section class="article" id="skrollr-body">
-		<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		<div class="fb-share-button" data-href="http://davesmdesign.com/osx.php" data-width="100" data-type="button_count"></div>
 			<div class="container">
 				<div class="col-md-8 col-md-offset-2">
 					<p><strong>WWDC</strong> is coming up on June 2nd, and one of the biggest expected unveilings is OS X 10.10, codenamed “Syrah”. It is expected to have an updated look, more closely in line with the aesthetic taken on by iOS 7 last fall. While I like to keep up with the computing industry as a whole, Apple’s unveilings tend to be especially intriguing. This time around, I decided to take a stab at a conceptual redesign of the current Mac operating system.</p>
