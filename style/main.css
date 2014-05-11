@@ -230,8 +230,4 @@ section {
         position: relative;
         float: right;
     }
-    
-    .hsContent {
-        opacity: 1 !important;
-    }
 }
