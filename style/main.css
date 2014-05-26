@@ -25,6 +25,10 @@ h1 {
     font-weight: bold !important;
 }
 
+h3 {
+    color: #2c3e50;
+}
+
 section {
     background-color: #ecf0f1;
 }
@@ -32,24 +36,25 @@ section {
 /* Sections */
 
 #section1 {
-    background: #1abc9c;
     background-attachment: fixed;
-    height: 60vh;
+    height: 20vh;
     max-height: 1200px;
+    padding-top: 10px;
 }
 
 #section1 img {
-    position: fixed;
+    position: absolute;
     text-align: center;
     margin: auto;
     height: auto;
     width: 50%;
     right: 0;
     left: 0;
+    top: 10vh;
 }
 
 #section1 h1 {
-    position: fixed;
+    position: absolute;
     text-align: center;
     margin: 80px auto 0;
     height: auto;
@@ -60,28 +65,14 @@ section {
 }
 
 #section1 h3 {
-    position: fixed;
+    position: absolute;
     text-align: center;
     margin: 150px auto 0;
     height: auto;
-    color: #ffffff;
+    color: #2c3e50;
     right: 0;
     left: 0;
-}
-
-
-/*parallax*/
-
-.hsContainer {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.hsContent {
-    position: fixed;
-    top: 50%;
-    width: 100%;
+    top: 10vh;
 }
 
 
@@ -93,15 +84,33 @@ section {
 }
 
 .portfolio-piece {
-    height: 200px;
+    height: 250px;
+}
+
+.portfolio-piece h3 {
+    text-align: center;
+}
+
+.portfolio-border {
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+}
+
+.portfolio-title {
+    color: #2c3e50;
 }
 
 .portfolio-pic {
-    background: transparent;
-    margin: 10px;
+    background: transparent no-repeat;
     width: 100%;
     height: 200px;
     background-size: 100% auto;
+    background-position: 50%;
+}
+
+.portfolio-pic a:hover {
+    opacity: .8;
 }
 
 .portfolio-placeholder {
@@ -126,15 +135,36 @@ section {
 }
 
 .hover-display:hover {
-    background-color: rgba(255,255,255,.8);
-    color: #000000;
+    color: #ffffff;
 }
 
+.projects:hover {
+    background-color: rgba(73,134,137,.8) !important;
+}
+
+.graphicdesign:hover {
+    background-color: rgba(32,205,94,.8) !important;
+}
+
+.uidesign:hover {
+    background-color: rgba(84,187,234,.8) !important;
+}
+
+.illustration:hover {
+    background-color: rgba(138,138,140,.8) !important;
+}
+
+.photography:hover {
+    background-color: rgba(200,16,21,.8) !important;
+}
+
+.resources:hover {
+    background-color: rgba(51,122,146,.8) !important;
+}
 .hover-display h3 {
     margin-top: 0 !important;
     font-weight: bold !important;
 }
-
 
 /*grid break*/
 .break {
@@ -147,36 +177,58 @@ section {
 }
 
 .nav {
-    top: 20px;
-    left: 45px;
-    color: #ffffff;
+    color: #2c3e50;
     font-size: 22px;
-    font-weight: lighter;
-    position: fixed;
-    letter-spacing: 1px;
-    width: 100px;
-    float: left;
+    font-weight: 300 !important;
 }
 
 .nav:hover {
     text-decoration: underline;
+}
+
+.nav-section {
+    min-width: 100px;
+    float: left;
+}
+
+.nav-section:nth-child(2) {
+    min-width: 200px;
+}
+
+.nav-stacked {
+    height: 50px;
+}
+
+.dark a {
+    color: #2c3e50 !important;
+}
+
+.nav-stacked a {
     color: #ffffff;
+}
+
+.nav-stacked .arrow {
+    border-right: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
 }
 
 .arrow {
     width: 15px;
     height: 15px;
     float: left;
-    border-right: 3px solid #ffffff;
-    border-bottom: 3px solid #ffffff;
+    border-right: 3px solid #2c3e50;
+    border-bottom: 3px solid #2c3e50;
     transform:rotate(135deg);
     -ms-transform:rotate(135deg); /* IE 9 */
     -webkit-transform:rotate(135deg); /* Opera, Chrome, and Safari */
     margin-top: 7px;
-    position: absolute;
-    left: -15px;
+    margin-right: 5px;
 }
 
+.dark>.nav>.arrow {
+    border-bottom-color: #2c3e50 !important;
+    border-right-color: #2c3e50 !important;
+}
 .article {
     margin-top: 150px;
 }
@@ -208,6 +260,28 @@ section {
 .fb-share-button {
     float: right;
     margin: 20px;
+}
+
+.lightlink {
+    height: 100%;
+    width: 100%;
+}
+
+#lightbox {
+    width: 100%;
+    height: 100%;
+    left: 0 !important;
+    top: 0 !important;
+    position: fixed !important;
+}
+#lightbox img {
+    max-height: 95vh;
+    width: auto;
+    max-width: 100%;
+}
+
+#lightboxDetails {
+    width: auto !important;
 }
 
 
