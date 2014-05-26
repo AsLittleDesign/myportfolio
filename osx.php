@@ -18,8 +18,12 @@
 		<section id="section1" style="background: url('img/projects/osx/osx.jpg') #000000;">
 			<div class="container">
     			<div class="nav-stacked">
-    				<a href="/" class="nav"><div class="arrow"></div>Home</a>
-    				<a href="/projects.php" class="nav"><div class="arrow"></div>Projects</a>
+    				<div class="nav-section">
+	    				<a href="/" class="nav"><div class="arrow"></div>Home</a>
+	    			</div>
+	    			<div class="nav-section">
+	    				<a href="/resources.php" class="nav"><div class="arrow"></div>Projects</a>
+	    			</div>
     			</div>
 				<h1>OS X 10.10 "Everest"</h1>
 				
