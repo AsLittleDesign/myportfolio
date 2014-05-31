@@ -20,7 +20,7 @@
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">Fist Bump</h3>
 						<div class="portfolio-border">
-							<div class="portfolio-pic" style="background-image: url('img/uidesign/fistbump.jpg')">
+							<div class="portfolio-pic" style="background-image: url('img/uidesign/thumb/fistbump.jpg')">
 								<a title="A concept for OS X 10.10. See the full concept in 'Projects'" rel="lightbox" href="img/uidesign/fistbump.jpg">
 									<div class="lightlink"></div>
 								</a>
