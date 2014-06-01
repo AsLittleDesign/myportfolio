@@ -9,7 +9,7 @@
 	<body>
 		<section id="section1">
 			<div class="container">
-				<img src="img/logo2.svg" alt="">
+				<img src="img/logo.svg" alt="">
 			</div>
 		</section>
 		<section class="portfolio-group">
