@@ -9,8 +9,8 @@
 	<body>
 		<section id="section1">
 			<div class="container">
-    			<a href="/" class="nav"><div class="arrow"></div>Home</a>
-				<img src="img/logo.svg" alt="">
+				<a href="/"><img src="img/logo.svg" alt=""></a>
+				<a href="/" class="nav"><div class="arrow"></div>Home</a>
 				<h3>Photography</h3>
 			</div>
 		</section>
@@ -149,15 +149,5 @@
 		<?php
 			include('inc/environment.php')
 		?>
-		<script>
-			require(['skrollr'], function(skrollr){
-				var s = skrollr.init();
-				if(!isMobile()) {
-				    skrollr.init({
-				        forceHeight: false
-				    });
-				}
-			});
-        </script>
 	</body>
 </html>

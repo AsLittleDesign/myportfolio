@@ -9,8 +9,8 @@
 	<body>
 		<section id="section1">
 			<div class="container">
-    			<a href="/" class="nav"><div class="arrow"></div>Home</a>
-				<img src="img/logo.svg" alt="">
+				<a href="/"><img src="img/logo.svg" alt=""></a>
+				<a href="/" class="nav"><div class="arrow"></div>Home</a>
 				<h3>Projects</h3>
 			</div>
 		</section>

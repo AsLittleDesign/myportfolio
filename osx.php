@@ -15,8 +15,9 @@
 	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
-		<section id="section1" style="background: url('img/projects/osx/osx.jpg') #000000;">
+		<section id="section1">
 			<div class="container">
+				<a href="/"><img src="img/logo.svg" alt=""></a>
     			<div class="nav-stacked">
     				<div class="nav-section">
 	    				<a href="/" class="nav"><div class="arrow"></div>Home</a>
@@ -25,8 +26,7 @@
 	    				<a href="/resources.php" class="nav"><div class="arrow"></div>Projects</a>
 	    			</div>
     			</div>
-				<h1>OS X 10.10 "Everest"</h1>
-				
+				<h2 class="col-md-offset-2">OS X 10.10 "Everest"</h2>
 			</div>
 		</section>
 		<section class="article">
@@ -36,6 +36,8 @@
 			<div class="container">
 				<div class="col-md-8 col-md-offset-2">
 					<h3>A Mac OS concept.</h3>
+					<p style="font-size: 14;">May 11, 2014</p>
+					<br>
 					<p><strong>WWDC</strong> is coming up on June 2nd, and one of the biggest expected unveilings is OS X 10.10, codenamed “Syrah”. It is expected to have an updated look, more closely in line with the aesthetic taken on by iOS 7 last fall. While I like to keep up with the computing industry as a whole, Apple’s unveilings tend to be especially intriguing. This time around, I decided to take a stab at a conceptual redesign of the current Mac operating system.</p>
 					<h1>To Start...</h1>
 					<p>I needed a set of objectives, something to guide the direction this design would go in, so I came up with these:</p>
@@ -120,15 +122,5 @@
 		<?php
 			include('inc/environment.php')
 		?>
-		<script>
-			require(['skrollr'], function(skrollr){
-				var s = skrollr.init();
-				if(!isMobile()) {
-				    skrollr.init({
-				        forceHeight: false
-				    });
-				}
-			});
-        </script>
 	</body>
 </html>

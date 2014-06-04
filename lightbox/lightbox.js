@@ -362,11 +362,14 @@ function initLightbox()
 	// if close button image found, 
 	imgPreloadCloseButton.onload=function(){
 
-		var objCloseButton = document.createElement("img");
-		objCloseButton.src = closeButton;
+		var objCloseButton = document.createElement("text");
 		objCloseButton.setAttribute('id','closeButton');
 		objCloseButton.style.position = 'absolute';
 		objCloseButton.style.zIndex = '200';
+		objCloseButton.style.color = "#ffffff";
+		objCloseButton.style.right = "15px";
+		objCloseButton.style.top = "10px";
+		objCloseButton.innerHTML = "X";
 		objLink.appendChild(objCloseButton);
 
 		return false;
@@ -394,6 +397,7 @@ function initLightbox()
 	var objKeyboardMsg = document.createElement("div");
 	objKeyboardMsg.setAttribute('id','keyboardMsg');
 	objKeyboardMsg.innerHTML = 'press <kbd>x</kbd> to close';
+	objKeyboardMsg.style.color = '#ffffff';
 	objLightboxDetails.appendChild(objKeyboardMsg);
 
 

@@ -9,7 +9,8 @@
 	<body>
 		<section id="section1">
 			<div class="container">
-    			<div class="nav-stacked">
+				<a href="/"><img src="img/logo.svg" alt=""></a>
+				<div class="nav-stacked">
     				<div class="nav-section dark">
 	    				<a href="/" class="nav"><div class="arrow"></div>Home</a>
 	    			</div>
@@ -17,8 +18,7 @@
 	    				<a href="/resources.php" class="nav"><div class="arrow"></div>Open Resources</a>
 	    			</div>
     			</div>
-				<img src="img/logo.svg" alt="">
-				<h3>Projects</h3>
+    			<h1>Vector iPhone 5s Mockup</h1>
 			</div>
 		</section>
 		<section class="portfolio-group">

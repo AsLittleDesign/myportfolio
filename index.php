@@ -5,15 +5,25 @@
 			include('inc/head.php');
 		?>
 		<title>Dave Scott Mccarthy</title>
+		<meta name="description" content="Learn about Dave and his journey designing and creating artwork!">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	</head>
 	<body>
 		<section id="section1">
 			<div class="container">
-				<img src="img/logo.svg" alt="">
+				<a href="/"><img src="img/logo.svg" alt=""></a>
+				<a href="http://tencompanies.com/#/" class="blog-link">Blog</a>
+			</div>
+		</section>
+		<section id="section2">
+			<div class="container">
+				<h2>About Me</h2>
+				<p>Hi! I'm a designer from the San Francisco bay area, and I love making cool things. When I got my hands on Adobe Photoshop for the first time about 6 years ago, my life changed forever. Ever since, I have explored many different avenues in design, from photography to illustration. The area I am most passionate about, however, is user interface and user experience design. I invite you to look through my designs, and feel free to contact me about anything. I don't bite!</p>
 			</div>
 		</section>
 		<section class="portfolio-group">
 			<div class="container">
+				<h2>Portfolio</h2>
 				<div class="row">
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">UI/UX Design</h3>
@@ -84,6 +94,20 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</section>
+		<section id="section4">
+			<div class="container">
+				<h2>Contact Me</h2>
+				<div class="col-md-6">
+					<h3>Dave Scott McCarthy</h3>
+					<a href="mailto:davesmccarthy@gmail.com"><p>davesmccarthy@gmail.com</p></a>
+					<a href="https://www.behance.net/davesmdesign"><p>Behance</p></a>
+					<a href="http://statecollege.deviantart.com/"><p>DeviantArt</p></a>
+					<a href="https://twitter.com/davesmdesign"><p>@davesmdesign</p></a>
+					<a href="https://www.facebook.com/davesmdesign"><p>Facebook</p></a>
+				</div>
+				<div class="col-md-6"></div>
 			</div>
 		</section>
 		<?php

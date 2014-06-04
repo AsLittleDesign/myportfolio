@@ -14,13 +14,12 @@ body {
 p {
     font-size: 18px;
     font-weight: 300;
-    letter-spacing: .5px;
-    /*text-align: justify;*/
+    letter-spacing: .2px;
 }
 
 h1 {
     text-align: center;
-    color: #2c3e50 !important;
+    color: #2c3e50;
     margin-bottom: 25px !important;
     font-weight: bold !important;
 }
@@ -29,59 +28,50 @@ h3 {
     color: #2c3e50;
 }
 
-section {
-    background-color: #ecf0f1;
-}
 
 /* Sections */
 
 #section1 {
-    background-attachment: fixed;
-    height: 20vh;
-    max-height: 1200px;
     padding-top: 10px;
 }
 
 #section1 img {
-    position: absolute;
-    text-align: center;
-    margin: auto;
     height: auto;
-    width: 50%;
-    right: 0;
-    left: 0;
+    width: 10%;
     top: 10vh;
+    margin-bottom: 5px;
 }
 
-#section1 h1 {
-    position: absolute;
-    text-align: center;
-    margin: 80px auto 0;
-    height: auto;
-    color: #ffffff !important;
-    right: 0;
-    left: 0;
-    font-weight: lighter !important;
+#section1 h2 {
+    color: #2c3e50 !important;
 }
 
-#section1 h3 {
-    position: absolute;
-    text-align: center;
-    margin: 150px auto 0;
-    height: auto;
-    color: #2c3e50;
-    right: 0;
-    left: 0;
-    top: 10vh;
+#section2 {
+    width: 100%;
+    padding: 80px 0; 
 }
 
+#section2 h2 {
+    color: #00a79d !important;
+}
+
+#section2 p {
+    text-align: justify;
+}
+
+#section4 {
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+
+#section4 h2 {
+    color: #ef4136 !important;
+}
 
 /*portfolio*/
 
-.portfolio-group {
-    margin-top: 150px;
-    background-color: #ecf0f1;
-    margin-bottom: 150px;
+.portfolio-group h2 {
+    color: #27aae1 !important;
 }
 
 .portfolio-piece {
@@ -179,7 +169,7 @@ section {
 
 .nav {
     color: #2c3e50;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 300 !important;
 }
 
@@ -188,7 +178,7 @@ section {
 }
 
 .nav-section {
-    min-width: 100px;
+    min-width: 80px;
     float: left;
 }
 
@@ -200,22 +190,18 @@ section {
     height: 50px;
 }
 
-.dark a {
-    color: #2c3e50 !important;
-}
-
 .nav-stacked a {
-    color: #ffffff;
+    color: #2c3e50;
 }
 
 .nav-stacked .arrow {
-    border-right: 3px solid #ffffff;
-    border-bottom: 3px solid #ffffff;
+    border-right: 3px solid #2c3e50;
+    border-bottom: 3px solid #2c3e50;
 }
 
 .arrow {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     float: left;
     border-right: 3px solid #2c3e50;
     border-bottom: 3px solid #2c3e50;
@@ -223,15 +209,17 @@ section {
     -ms-transform:rotate(135deg); /* IE 9 */
     -webkit-transform:rotate(135deg); /* Opera, Chrome, and Safari */
     margin-top: 7px;
-    margin-right: 5px;
 }
 
-.dark>.nav>.arrow {
-    border-bottom-color: #2c3e50 !important;
-    border-right-color: #2c3e50 !important;
+.blog-link {
+    float: right;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 10px;
 }
+
 .article {
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 .article h1 {
@@ -266,6 +254,7 @@ section {
 .lightlink {
     height: 100%;
     width: 100%;
+    cursor: pointer;
 }
 
 #lightbox {
@@ -274,9 +263,11 @@ section {
     left: 0 !important;
     top: 0 !important;
     position: fixed !important;
+    text-align: center;
+    background-color: transparent !important;
 }
 #lightbox img {
-    max-height: 95vh;
+    max-height: 91vh;
     width: auto;
     max-width: 100%;
 }
@@ -285,7 +276,21 @@ section {
     width: auto !important;
 }
 
+#lightboxImage {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
 
+#lightboxCaption {
+    float: initial !important;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#overlay {
+    background-image: none;
+    background-color: rgba(0,0,0,.8);
+}
 
 
 @media only screen and (max-width: 600px) {
