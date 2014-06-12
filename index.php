@@ -19,15 +19,8 @@
 				</ol>
 			</div>
 		</section>
-		<section id="section2">
-			<div class="container">
-				<h2>About Me</h2>
-				<p>Hi! I'm a designer from the San Francisco bay area, and I love making cool things. When I got my hands on Adobe Photoshop for the first time about 6 years ago, my life changed forever. Ever since, I have explored many different avenues in design, from photography to illustration. The area I am most passionate about, however, is user interface and user experience design. I invite you to look through my designs, and feel free to contact me about anything. I don't bite!</p>
-			</div>
-		</section>
 		<section class="portfolio-group">
 			<div class="container">
-				<h2>Portfolio</h2>
 				<div class="row">
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">UI/UX Design</h3>
@@ -100,9 +93,21 @@
 				</div>
 			</div>
 		</section>
+		<section id="section2">
+			<div class="container">
+				<div class="about-container">
+					<div class="col-md-2">
+						<img src="img/self.png" class="self" alt="">
+					</div>
+					<div class="col-md-10">
+						<h3>About Me</h3>
+						<p>Hi! My name's Dave. I'm a designer from the San Francisco bay area, and I love making cool things. When I got my hands on Photoshop for the first time about 6 years ago, my life changed forever. Ever since, I have explored many different avenues in design, from photography to illustration. The area I am most passionate about, however, is user interface and user experience design. I invite you to look through my designs, and feel free to contact me about anything. I don't bite!</p>
+					</div>
+				</div>
+			</div>
+		</section>
 		<section id="section4">
 			<div class="container">
-				<h2>Contact Me</h2>
 				<div class="col-md-4">
 					<div class="list-group">
 						<a class="list-group-item" href="mailto:davesmccarthy@gmail.com">

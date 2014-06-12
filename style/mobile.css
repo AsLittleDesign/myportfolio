@@ -18,4 +18,8 @@
     #section4 .col-md-4 {
         padding: 0 !important;
     }
+
+    #section4 .col-md-8 {
+        padding: 0 !important;
+    }
 }

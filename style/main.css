@@ -42,7 +42,7 @@ h3 {
 
 #section2 {
     width: 100%;
-    padding: 0 0 50px 0;
+    padding: 0;
 }
 
 #section2 h2 {
@@ -59,7 +59,7 @@ h3 {
 }
 
 #section4 .col-md-4 {
-    padding: 0 20px 0 0;
+    padding: 0 15px 0 0;
 }
 
 #section4 .col-md-8 {
@@ -231,14 +231,19 @@ h3 {
     margin: 20px 0;
 }
 
-.twitter-share-button {
-    float: right;
-    margin: 20px 0;
+.self {
+    border-radius: 100%;
+    width: 100%;
+    height: auto;
 }
 
-.fb-share-button {
-    float: right;
-    margin: 20px;
+.about-container {
+    margin-top: 100px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #E8E8F2;
+    padding: 15px;
+    float: left;
 }
 
 .lightlink {
