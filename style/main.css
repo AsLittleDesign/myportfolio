@@ -87,8 +87,8 @@ h3 {
 .portfolio-border {
     padding: 10px;
     background-color: #ffffff;
-    box-shadow: 1px 1px 3px rgba(0,0,0,.3);
-    border-radius: 2px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
 }
 
 .portfolio-title {
@@ -101,6 +101,7 @@ h3 {
     height: 200px;
     background-size: 100% auto;
     background-position: 50%;
+    border-radius: 2px;
 }
 
 .portfolio-pic a:hover {
@@ -126,6 +127,7 @@ h3 {
     cursor: pointer;
     color: transparent;
     padding: 10px;
+    border-radius: 2px;
 }
 
 .hover-display:hover {
