@@ -8,13 +8,7 @@ Colors:
 
 
 body {
-     background-color: #ecf0f1!important;
-}
-
-p {
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: .2px;
+    background-color: #ecf0f1!important;
 }
 
 h1 {
@@ -48,7 +42,7 @@ h3 {
 
 #section2 {
     width: 100%;
-    padding: 80px 0; 
+    padding: 0 0 50px 0;
 }
 
 #section2 h2 {
@@ -62,6 +56,14 @@ h3 {
 #section4 {
     padding-top: 80px;
     margin-bottom: 80px;
+}
+
+#section4 .col-md-4 {
+    padding: 0 20px 0 0;
+}
+
+#section4 .col-md-8 {
+    padding: 0 0 0 15px;
 }
 
 #section4 h2 {
@@ -86,6 +88,7 @@ h3 {
     padding: 10px;
     background-color: #ffffff;
     box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+    border-radius: 2px;
 }
 
 .portfolio-title {
@@ -131,26 +134,50 @@ h3 {
 
 .projects:hover {
     background-color: rgba(73,134,137,.8) !important;
+    transition:         background-color .10s ease-in-out;
+    -webkit-transition: background-color .10s ease-in-out;
+    -moz-transition:    background-color .10s ease-in-out;
+    -o-transition:      background-color .10s ease-in-out;
 }
 
 .graphicdesign:hover {
     background-color: rgba(32,205,94,.8) !important;
+    transition:         background-color .10s ease-in-out;
+    -webkit-transition: background-color .10s ease-in-out;
+    -moz-transition:    background-color .10s ease-in-out;
+    -o-transition:      background-color .10s ease-in-out;
 }
 
 .uidesign:hover {
     background-color: rgba(84,187,234,.8) !important;
+    transition:         background-color .10s ease-in-out;
+    -webkit-transition: background-color .10s ease-in-out;
+    -moz-transition:    background-color .10s ease-in-out;
+    -o-transition:      background-color .10s ease-in-out;
 }
 
 .illustration:hover {
     background-color: rgba(138,138,140,.8) !important;
+    transition:         background-color .10s ease-in-out;
+    -webkit-transition: background-color .10s ease-in-out;
+    -moz-transition:    background-color .10s ease-in-out;
+    -o-transition:      background-color .10s ease-in-out;
 }
 
 .photography:hover {
     background-color: rgba(200,16,21,.8) !important;
+    transition:         background-color .10s ease-in-out;
+    -webkit-transition: background-color .10s ease-in-out;
+    -moz-transition:    background-color .10s ease-in-out;
+    -o-transition:      background-color .10s ease-in-out;
 }
 
 .resources:hover {
     background-color: rgba(51,122,146,.8) !important;
+    transition:         background-color .10s ease-in-out;
+    -webkit-transition: background-color .10s ease-in-out;
+    -moz-transition:    background-color .10s ease-in-out;
+    -o-transition:      background-color .10s ease-in-out;
 }
 .hover-display h3 {
     margin-top: 0 !important;
@@ -167,59 +194,20 @@ h3 {
     background-attachment: fixed;
 }
 
-.nav {
-    color: #2c3e50;
-    font-size: 16px;
-    font-weight: 300 !important;
-}
-
-.nav:hover {
-    text-decoration: underline;
-}
-
-.nav-section {
-    min-width: 80px;
-    float: left;
-}
-
-.nav-section:nth-child(2) {
-    min-width: 200px;
-}
-
-.nav-stacked {
-    height: 50px;
-}
-
-.nav-stacked a {
-    color: #2c3e50;
-}
-
-.nav-stacked .arrow {
-    border-right: 3px solid #2c3e50;
-    border-bottom: 3px solid #2c3e50;
-}
-
-.arrow {
-    width: 10px;
-    height: 10px;
-    float: left;
-    border-right: 3px solid #2c3e50;
-    border-bottom: 3px solid #2c3e50;
-    transform:rotate(135deg);
-    -ms-transform:rotate(135deg); /* IE 9 */
-    -webkit-transform:rotate(135deg); /* Opera, Chrome, and Safari */
-    margin-top: 7px;
-}
-
 .blog-link {
     float: right;
     font-size: 22px;
     font-weight: 300;
     margin-top: 10px;
+    background-color: #27aae1 !important;
 }
 
-.article {
-    margin-top: 80px;
+.blog-link:hover {
+    transition:         background-color .10s ease-in-out;
+    -webkit-transition: background-color .10s ease-in-out;
+    -moz-transition:    background-color .10s ease-in-out;
+    -o-transition:      background-color .10s ease-in-out;
+    background-color: #2980b9 !important;
 }
 
 .article h1 {
@@ -287,27 +275,30 @@ h3 {
     font-size: 16px;
 }
 
+#closeButton {
+    font-size: 17px;
+}
+
+.list-group-item {
+    border-color: #e8e8e8 !important;
+}
+.list-group-item img {
+    width: 25px;
+    margin-right: 20px;
+    padding-bottom: 1px;
+}
+
 #overlay {
     background-image: none;
     background-color: rgba(0,0,0,.8);
 }
 
-
-@media only screen and (max-width: 600px) {
-    #section1 img {
-        width: 90%;
-    }
-
-    #diamond {
-        width: 150px;
-        height: 150px;
-    }
-
+#twitter-widget-0 {
+    width: 100% !important;
+    height: 300px;
 }
 
-@media only screen and (max-width: 990px) {
-    #section2 button {
-        position: relative;
-        float: right;
-    }
+.breadcrumb {
+    background-color: transparent !important;
 }
+

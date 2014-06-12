@@ -8,31 +8,19 @@
 	</head>
 	<body>
 	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
 		<section id="section1">
 			<div class="container">
-				<a href="/"><img src="img/logo.svg" alt=""></a>
-    			<div class="nav-stacked">
-    				<div class="nav-section">
-	    				<a href="/" class="nav"><div class="arrow"></div>Home</a>
-	    			</div>
-	    			<div class="nav-section">
-	    				<a href="/resources.php" class="nav"><div class="arrow"></div>Projects</a>
-	    			</div>
-    			</div>
-				<h2 class="col-md-offset-2">OS X 10.10 "Everest"</h2>
+				<?php
+					include('inc/nav.php');
+				?>
+    			<ol class="breadcrumb">
+					<li><a href="/">Home</a></li>
+					<li><a href="/resources.php">Projects</a></li>
+					<li class="active">OS X 10.10 "Everest"</li>
+				</ol>
 			</div>
 		</section>
 		<section class="article">
-		<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		<div class="fb-share-button" data-href="http://davesmdesign.com/osx.php" data-width="100" data-type="button_count"></div>
 			<div class="container">
 				<div class="col-md-8 col-md-offset-2">
 					<h3>A Mac OS concept.</h3>
@@ -103,9 +91,6 @@
 					<br>
 					<br>
 					<p>Thank you for checking out my OS X 10.10 concept! If you liked it, please share it with your friends!</p>
-					<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-					<div class="fb-share-button" data-href="http://davesmdesign.com/osx.php" data-width="100" data-type="button_count"></div>
 					<br>
 					<br>
 					<br>
@@ -114,9 +99,7 @@
 					<p style="font-size: 14px;">*Credit to Edgar Rios for the idea of combining the Control Center and the Apple menu.</p>
 					<p style="font-size: 14px;">*Credit to <a href="http://www.deviantart.com/art/Everest-216901989">RurouniVash</a> for the awesome wallpaper.</p>
 				</div>
-				
 			</div>
-			
 		</section>
 		
 		<?php

@@ -11,8 +11,12 @@
 	<body>
 		<section id="section1">
 			<div class="container">
-				<a href="/"><img src="img/logo.svg" alt=""></a>
-				<a href="http://tencompanies.com/#/" class="blog-link">Blog</a>
+				<?php
+					include('inc/nav.php');
+				?>
+				<ol class="breadcrumb">
+					<li class="active">Home</li>
+				</ol>
 			</div>
 		</section>
 		<section id="section2">
@@ -99,15 +103,29 @@
 		<section id="section4">
 			<div class="container">
 				<h2>Contact Me</h2>
-				<div class="col-md-6">
-					<h3>Dave Scott McCarthy</h3>
-					<a href="mailto:davesmccarthy@gmail.com"><p>davesmccarthy@gmail.com</p></a>
-					<a href="https://www.behance.net/davesmdesign"><p>Behance</p></a>
-					<a href="http://statecollege.deviantart.com/"><p>DeviantArt</p></a>
-					<a href="https://twitter.com/davesmdesign"><p>@davesmdesign</p></a>
-					<a href="https://www.facebook.com/davesmdesign"><p>Facebook</p></a>
+				<div class="col-md-4">
+					<div class="list-group">
+						<a class="list-group-item" href="mailto:davesmccarthy@gmail.com">
+							<img src="img/mail.svg" alt="">davesmccarthy@gmail.com
+						</a>
+						<a class="list-group-item" href="https://twitter.com/davesmdesign">
+							<img src="img/twitter.svg" alt="">@davesmdesign
+						</a>
+						<a class="list-group-item" href="https://www.facebook.com/davesmdesign">
+							<img src="img/facebook.svg" alt="">Facebook
+						</a>
+						<a class="list-group-item" href="http://statecollege.deviantart.com/">
+							<img src="img/deviantart.svg" alt="">DeviantArt
+						</a>
+						<a class="list-group-item" href="https://www.behance.net/davesmdesign">
+							<img src="img/behance.svg" alt="">Behance
+						</a>
+					</div>
 				</div>
-				<div class="col-md-6"></div>
+				<div class="col-md-8">
+					<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/davesmdesign" data-widget-id="477014420577456128">Tweets by @davesmdesign</a>
+				</div>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			</div>
 		</section>
 		<?php

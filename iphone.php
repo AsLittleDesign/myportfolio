@@ -9,16 +9,14 @@
 	<body>
 		<section id="section1">
 			<div class="container">
-				<a href="/"><img src="img/logo.svg" alt=""></a>
-				<div class="nav-stacked">
-    				<div class="nav-section dark">
-	    				<a href="/" class="nav"><div class="arrow"></div>Home</a>
-	    			</div>
-	    			<div class="nav-section dark">
-	    				<a href="/resources.php" class="nav"><div class="arrow"></div>Open Resources</a>
-	    			</div>
-    			</div>
-    			<h1>Vector iPhone 5s Mockup</h1>
+				<?php
+					include('inc/nav.php');
+				?>
+				<ol class="breadcrumb">
+					<li><a href="/">Home</a></li>
+					<li><a href="/resources.php">Open Resources</a></li>
+					<li class="active">Vector iPhone 5s Mockup</li>
+				</ol>
 			</div>
 		</section>
 		<section class="portfolio-group">

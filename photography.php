@@ -9,9 +9,13 @@
 	<body>
 		<section id="section1">
 			<div class="container">
-				<a href="/"><img src="img/logo.svg" alt=""></a>
-				<a href="/" class="nav"><div class="arrow"></div>Home</a>
-				<h3>Photography</h3>
+				<?php
+					include('inc/nav.php');
+				?>
+				<ol class="breadcrumb">
+					<li><a href="/">Home</a></li>
+					<li class="active">Photography</li>
+				</ol>
 			</div>
 		</section>
 		<section class="portfolio-group">
