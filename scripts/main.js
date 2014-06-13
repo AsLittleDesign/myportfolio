@@ -53,4 +53,10 @@ $(document).ready(function(){
 	$(".resources").mouseout(function(){
 		$("#resources").removeClass("active");
 	})
+
+	//davesmdesign redirect
+	var url = window.location;
+	if (url == "http://www.davesmdesign.com/" || url == "http://davesmdesign.com/") {
+		window.location.href = "http://www.davesmccarthy.com/";
+	}
 });
