@@ -18,7 +18,7 @@
 				</ol>
 			</div>
 		</section>
-		<section class="portfolio-group">
+		<section class="portfolio-group photography-group">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 portfolio-piece">

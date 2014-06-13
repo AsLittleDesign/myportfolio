@@ -77,7 +77,6 @@ h3 {
 }
 
 .portfolio-piece {
-    height: 250px;
 }
 
 .portfolio-piece h3 {
@@ -85,7 +84,7 @@ h3 {
 }
 
 .portfolio-border {
-    padding: 10px;
+    padding: 10px 10px 0 10px;
     background-color: #ffffff;
     border: 1px solid #e8e8e8;
     border-radius: 3px;
@@ -172,6 +171,10 @@ h3 {
     -webkit-transition: background-color .10s ease-in-out;
     -moz-transition:    background-color .10s ease-in-out;
     -o-transition:      background-color .10s ease-in-out;
+}
+
+.photography-group {
+    margin-bottom: 100px;
 }
 
 .resources:hover {
@@ -293,6 +296,20 @@ h3 {
     width: 25px;
     margin-right: 20px;
     padding-bottom: 1px;
+}
+
+.description {
+    height: 0;
+    font-size: 0;
+    transition:         height .20s ease-in-out, font-size .20s ease-in-out;
+    -webkit-transition: height .20s ease-in-out, font-size .20s ease-in-out;
+    -moz-transition:    height .20s ease-in-out, font-size .20s ease-in-out;
+    -o-transition:      height .20s ease-in-out, font-size .20s ease-in-out;
+}
+
+.description.active {
+    font-size: 14px;
+    height: 100%;
 }
 
 #overlay {
