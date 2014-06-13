@@ -128,53 +128,34 @@ h3 {
     width: 100%;
     height: 100%;
     cursor: pointer;
-    color: transparent;
-    padding: 10px;
     border-radius: 2px;
 }
 
-.hover-display:hover {
-    color: #ffffff;
+.projects:hover, .graphicdesign:hover, .uidesign:hover, .illustration:hover, .photography:hover, .resources:hover {
+    transition:         background-color .35s ease-in-out;
+    -webkit-transition: background-color .35s ease-in-out;
+    -moz-transition:    background-color .35s ease-in-out;
+    -o-transition:      background-color .35s ease-in-out;
 }
 
 .projects:hover {
     background-color: rgba(73,134,137,.8) !important;
-    transition:         background-color .10s ease-in-out;
-    -webkit-transition: background-color .10s ease-in-out;
-    -moz-transition:    background-color .10s ease-in-out;
-    -o-transition:      background-color .10s ease-in-out;
 }
 
 .graphicdesign:hover {
     background-color: rgba(32,205,94,.8) !important;
-    transition:         background-color .10s ease-in-out;
-    -webkit-transition: background-color .10s ease-in-out;
-    -moz-transition:    background-color .10s ease-in-out;
-    -o-transition:      background-color .10s ease-in-out;
 }
 
 .uidesign:hover {
     background-color: rgba(84,187,234,.8) !important;
-    transition:         background-color .10s ease-in-out;
-    -webkit-transition: background-color .10s ease-in-out;
-    -moz-transition:    background-color .10s ease-in-out;
-    -o-transition:      background-color .10s ease-in-out;
 }
 
 .illustration:hover {
     background-color: rgba(138,138,140,.8) !important;
-    transition:         background-color .10s ease-in-out;
-    -webkit-transition: background-color .10s ease-in-out;
-    -moz-transition:    background-color .10s ease-in-out;
-    -o-transition:      background-color .10s ease-in-out;
 }
 
 .photography:hover {
     background-color: rgba(200,16,21,.8) !important;
-    transition:         background-color .10s ease-in-out;
-    -webkit-transition: background-color .10s ease-in-out;
-    -moz-transition:    background-color .10s ease-in-out;
-    -o-transition:      background-color .10s ease-in-out;
 }
 
 .photography-group {
@@ -183,11 +164,8 @@ h3 {
 
 .resources:hover {
     background-color: rgba(51,122,146,.8) !important;
-    transition:         background-color .10s ease-in-out;
-    -webkit-transition: background-color .10s ease-in-out;
-    -moz-transition:    background-color .10s ease-in-out;
-    -o-transition:      background-color .10s ease-in-out;
 }
+
 .hover-display h3 {
     margin-top: 0 !important;
     font-weight: bold !important;
@@ -303,17 +281,23 @@ h3 {
 }
 
 .description {
+    position: absolute;
     height: 0;
+    bottom: 0;
     font-size: 0;
-    transition:         height .20s ease-in-out, font-size .20s ease-in-out;
-    -webkit-transition: height .20s ease-in-out, font-size .20s ease-in-out;
-    -moz-transition:    height .20s ease-in-out, font-size .20s ease-in-out;
-    -o-transition:      height .20s ease-in-out, font-size .20s ease-in-out;
+    width: 100%;
+    font-weight: bold;
+    overflow: hidden;
+    transition:         background-color .20s ease-in-out, height .20s ease-in-out;
+    -webkit-transition: background-color .20s ease-in-out, height .20s ease-in-out;
+    -moz-transition:    background-color .20s ease-in-out, height .20s ease-in-out;
+    -o-transition:      background-color .20s ease-in-out, height .20s ease-in-out;
 }
 
 .description.active {
     font-size: 14px;
-    height: 100%;
+    height: 50px;
+    background-color: #ffffff;
 }
 
 #overlay {

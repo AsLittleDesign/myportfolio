@@ -24,64 +24,64 @@
 				<div class="row">
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">UI/UX Design</h3>
-						<div class="portfolio-border home">
+						<div class="portfolio-border">
 							<div class="portfolio-pic" style="background-image: url('img/uidesign/thumb/fistbump.jpg')">
 								<div class="hover-display uidesign" onclick="window.location = 'uidesign.php';">
+									<p id="uidesign" class="description col-md-12">A variety of application, and web designs that I've done.</p>
 								</div>
 							</div>
-							<p id="uidesign" class="description">A variety of interface designs.</p>
 						</div>
 					</div>
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">Graphic Design</h3>
-						<div class="portfolio-border home">
+						<div class="portfolio-border">
 							<div class="portfolio-pic" style="background-image: url('img/graphicdesign/thumb/skrillex.jpg')">
 								<div class="hover-display graphicdesign" onclick="window.location = 'design.php';">
+									<p id="graphicdesign" class="description col-md-12">A variety of graphic design pieces from logos to icons that I've done.</p>
 								</div>
 							</div>
-							<p id="graphicdesign" class="description">A variety of design pieces from logos to icons.</p>
 						</div>
 					</div>
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">Photography</h3>
-						<div class="portfolio-border home">
+						<div class="portfolio-border">
 							<div class="portfolio-pic" style="background-image: url('img/photography/thumb/bleedingsoftly.jpg')">
 								<div class="hover-display photography" onclick="window.location = 'photography.php';">
+									<p id="photography" class="description col-md-12">Some photography and photo compositing pieces of mine that I've done.</p>
 								</div>
 							</div>
-							<p id="photography" class="description">Some photography and photo compositing pieces of mine that I've done.</p>
 						</div>
 					</div>
 				</div>
 				<div class="row break">
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">Illustration</h3>
-						<div class="portfolio-border home">
+						<div class="portfolio-border">
 							<div class="portfolio-pic" style="background-image: url('img/illustration/thumb/jobs.jpg')">
 								<div class="hover-display illustration" onclick="window.location = 'illustration.php';">
+									<p id="illustration" class="description col-md-12">A collection of illustration pieces that I've done.</p>
 								</div>
 							</div>
-							<p id="illustration" class="description">A collection of illustration pieces of mine.</p>
 						</div>
 					</div>
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">Projects</h3>
-						<div class="portfolio-border home">
+						<div class="portfolio-border">
 							<div class="portfolio-pic" style="background-image: url('img/projects/osx/osx_promo.png')">
 								<div class="hover-display projects" onclick="window.location = 'projects.php';">
+									<p id="projects" class="description col-md-12">An in-depth look at a selection of my designs to describe my thought process.</p>
 								</div>
 							</div>
-							<p id="projects" class="description">An in-depth look at some of my designs.</p>
 						</div>
 					</div>
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">Open Resources</h3>
-						<div class="portfolio-border home">
+						<div class="portfolio-border">
 							<div class="portfolio-pic" style="background-image: url('img/resources/iphone.png')">
 								<div class="hover-display resources" onclick="window.location = 'resources.php';">
+									<p id="resources" class="description col-md-12">Resources I created for designers that are free to use for personal and commercial use.</p>
 								</div>
 							</div>
-							<p id="resources" class="description">Resources I created for designers that are free to use for personal and commercial use.</p>
 						</div>
 					</div>
 				</div>
