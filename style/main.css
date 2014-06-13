@@ -84,10 +84,14 @@ h3 {
 }
 
 .portfolio-border {
-    padding: 10px 10px 0 10px;
+    padding: 10px;
     background-color: #ffffff;
     border: 1px solid #e8e8e8;
     border-radius: 3px;
+}
+
+.portfolio-border.home {
+    padding: 10px 10px 0 10px;
 }
 
 .portfolio-title {
@@ -241,7 +245,7 @@ h3 {
 }
 
 .about-container {
-    margin-top: 100px;
+    margin-top: 80px;
     border-radius: 3px;
     background-color: #ffffff;
     border: 1px solid #E8E8F2;
@@ -325,4 +329,3 @@ h3 {
 .breadcrumb {
     background-color: transparent !important;
 }
-

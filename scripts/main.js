@@ -9,9 +9,11 @@ $(document).ready(function(){
 	//ui/ux
 	$(".uidesign").on("mouseover", function(){
 		$("#uidesign").addClass("active");
+		$(".break").css("margin-top", "0");
 	});
 	$(".uidesign").mouseout(function(){
 		$("#uidesign").removeClass("active");
+		$(".break").css("margin-top", "30px");
 	})
 
 	//graphic design

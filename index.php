@@ -24,7 +24,7 @@
 				<div class="row">
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">UI/UX Design</h3>
-						<div class="portfolio-border">
+						<div class="portfolio-border home">
 							<div class="portfolio-pic" style="background-image: url('img/uidesign/thumb/fistbump.jpg')">
 								<div class="hover-display uidesign" onclick="window.location = 'uidesign.php';">
 								</div>
@@ -34,7 +34,7 @@
 					</div>
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">Graphic Design</h3>
-						<div class="portfolio-border">
+						<div class="portfolio-border home">
 							<div class="portfolio-pic" style="background-image: url('img/graphicdesign/thumb/skrillex.jpg')">
 								<div class="hover-display graphicdesign" onclick="window.location = 'design.php';">
 								</div>
@@ -44,7 +44,7 @@
 					</div>
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">Photography</h3>
-						<div class="portfolio-border">
+						<div class="portfolio-border home">
 							<div class="portfolio-pic" style="background-image: url('img/photography/thumb/bleedingsoftly.jpg')">
 								<div class="hover-display photography" onclick="window.location = 'photography.php';">
 								</div>
@@ -56,7 +56,7 @@
 				<div class="row break">
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">Illustration</h3>
-						<div class="portfolio-border">
+						<div class="portfolio-border home">
 							<div class="portfolio-pic" style="background-image: url('img/illustration/thumb/jobs.jpg')">
 								<div class="hover-display illustration" onclick="window.location = 'illustration.php';">
 								</div>
@@ -66,7 +66,7 @@
 					</div>
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">Projects</h3>
-						<div class="portfolio-border">
+						<div class="portfolio-border home">
 							<div class="portfolio-pic" style="background-image: url('img/projects/osx/osx_promo.png')">
 								<div class="hover-display projects" onclick="window.location = 'projects.php';">
 								</div>
@@ -76,7 +76,7 @@
 					</div>
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">Open Resources</h3>
-						<div class="portfolio-border">
+						<div class="portfolio-border home">
 							<div class="portfolio-pic" style="background-image: url('img/resources/iphone.png')">
 								<div class="hover-display resources" onclick="window.location = 'resources.php';">
 								</div>
