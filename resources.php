@@ -24,8 +24,6 @@
 						<div class="portfolio-border">
 							<div class="portfolio-pic" style="background-image: url('img/resources/iphone.png')">
 								<div class="hover-display resources" onclick="window.location = 'iphone.php';">
-									<h3>Vector iPhone Mockups</h3>
-									<p>Renderings of an iPhone 5s done in Illustrator and downloadable in a .ai format.</p>
 								</div>
 							</div>
 						</div>

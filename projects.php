@@ -26,8 +26,6 @@
 						<div class="portfolio-border">
 							<div class="portfolio-pic" style="background-image: url('img/projects/osx/osx_promo.png')">
 								<div class="hover-display projects" onclick="window.location = 'osx.php';">
-									<h3>OS X 10.10 "Everest"</h3>
-									<p>A conceptual redesign of the current Mac OS that shows what it could look like soon.</p>
 								</div>
 							</div>
 						</div>
