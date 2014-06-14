@@ -87,15 +87,5 @@
 		<?php
 			include('inc/environment.php')
 		?>
-		<script>
-			require(['skrollr'], function(skrollr){
-				var s = skrollr.init();
-				if(!isMobile()) {
-				    skrollr.init({
-				        forceHeight: false
-				    });
-				}
-			});
-        </script>
 	</body>
 </html>
