@@ -396,7 +396,7 @@ function initLightbox()
 	// create keyboard message
 	var objKeyboardMsg = document.createElement("div");
 	objKeyboardMsg.setAttribute('id','keyboardMsg');
-	objKeyboardMsg.innerHTML = 'press <kbd>x</kbd> to close';
+	objKeyboardMsg.innerHTML = "press 'x' or 'esc' to close";
 	objKeyboardMsg.style.color = '#ffffff';
 	objLightboxDetails.appendChild(objKeyboardMsg);
 

@@ -250,6 +250,12 @@ h3 {
     max-height: 91vh;
     width: auto;
     max-width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 #lightboxDetails {
@@ -265,6 +271,10 @@ h3 {
     float: initial !important;
     color: #ffffff;
     font-size: 16px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
 }
 
 #closeButton {
@@ -303,6 +313,12 @@ h3 {
 #overlay {
     background-image: none;
     background-color: rgba(0,0,0,.8);
+}
+
+#keyboardMsg {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 #twitter-widget-0 {
