@@ -182,6 +182,7 @@ function showLightbox(objLink)
 		objLoadingImage.style.top = (arrayPageScroll[1] + ((arrayPageSize[3] - 35 - objLoadingImage.height) / 2) + 'px');
 		objLoadingImage.style.left = (((arrayPageSize[0] - 20 - objLoadingImage.width) / 2) + 'px');
 		objLoadingImage.style.display = 'block';
+		objLoadingImage.style.width = "80px"
 	}
 
 	// set height of Overlay to take up whole page and show
