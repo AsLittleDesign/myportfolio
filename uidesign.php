@@ -64,7 +64,7 @@
 						</div>
 					</div>
 					<div class="col-md-4 portfolio-piece">
-						<h3 class="portfolio-title">Black Moto360 Watch Face</h3>
+						<h3 class="portfolio-title">Black Watch Face</h3>
 						<div class="portfolio-border">
 							<div class="portfolio-pic" style="background-image: url('img/uidesign/thumb/watch.png')">
 								<a title="My first submission into the Moto360 watch face concept competition!" rel="lightbox" href="img/uidesign/watch.gif">
@@ -74,7 +74,7 @@
 						</div>
 					</div>
 					<div class="col-md-4 portfolio-piece">
-						<h3 class="portfolio-title">White Moto360 Watch Face Concept</h3>
+						<h3 class="portfolio-title">White Watch Face Concept</h3>
 						<div class="portfolio-border">
 							<div class="portfolio-pic" style="background-image: url('img/uidesign/thumb/watch-white.png')">
 								<a title="My second submission into the Moto360 watch face concept competition!" rel="lightbox" href="img/uidesign/watch-white.gif">
