@@ -6,6 +6,9 @@ Colors:
 */
 
 
+* {
+    font-family: Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 
 body {
     background-color: #ecf0f1!important;
@@ -296,7 +299,6 @@ h3 {
     bottom: 0;
     font-size: 0;
     width: 100%;
-    font-weight: bold;
     overflow: hidden;
     transition:         background-color .20s ease-in-out, height .20s ease-in-out;
     -webkit-transition: background-color .20s ease-in-out, height .20s ease-in-out;

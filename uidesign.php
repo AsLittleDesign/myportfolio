@@ -22,6 +22,16 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 portfolio-piece">
+						<h3 class="portfolio-title">Geodometer API Documentation</h3>
+						<div class="portfolio-border">
+							<div class="portfolio-pic" style="background-image: url('img/uidesign/thumb/geodometer.jpg')">
+								<a title="API documentation that I designed for our team at Startup Weekend." rel="lightbox" href="img/uidesign/geodometer.jpg">
+									<div class="lightlink"></div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">Smart Alarm</h3>
 						<div class="portfolio-border">
 							<div class="portfolio-pic" style="background-image: url('img/uidesign/thumb/alarm.jpg')">
@@ -41,6 +51,8 @@
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="row break">
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">OS X 10.10 "Everest"</h3>
 						<div class="portfolio-border">
@@ -51,8 +63,6 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="row break">
 					<div class="col-md-4 portfolio-piece">
 						<h3 class="portfolio-title">Black Watch Face Concept</h3>
 						<div class="portfolio-border">
@@ -72,17 +82,6 @@
 								</a>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4 portfolio-piece">
-						<h3 class="portfolio-title">More coming soon!</h3>
-						<div class="portfolio-border">
-							<div class="portfolio-pic" style="">
-								<div class="portfolio-placeholder"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 portfolio-piece">
-						<div class="portfolio-pic" style=""></div>
 					</div>
 				</div>
 			</div>
