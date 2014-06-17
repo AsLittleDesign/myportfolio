@@ -23,6 +23,7 @@ h1 {
 
 h3 {
     color: #2c3e50;
+    font-size: 20px !important;
 }
 
 
@@ -77,6 +78,7 @@ h3 {
 
 .portfolio-group h2 {
     color: #27aae1 !important;
+    margin-top: 50px;
 }
 
 .portfolio-piece {
