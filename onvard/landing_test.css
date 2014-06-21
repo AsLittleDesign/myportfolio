@@ -52,7 +52,7 @@ nav {
 }
 
 .content {
-	padding-top: 12vh;
+	padding-top: 25vh;
 	margin-bottom: 15vh;
 }
 	
@@ -60,18 +60,14 @@ nav {
 		text-align: left;
 	}
 
-	.content h1, .content p {
-		font-weight: 400;
-	}
-
 	.content h1, .content h3 {
 		text-align: left;
-		margin-top: 30px
 	}
 
 	.content p, .content h1 {
 		color: #ffffff;
 		text-shadow: 1px 1px .5px rgba(0,0,0,.7);
+		padding: 0 25px;
 	}
 
 	.content.col-md-3 {
@@ -79,7 +75,7 @@ nav {
 	}
 
 	.copy {
-		margin-top: 50px;
+		margin-top: 25px;
 	}
 
 	.content input {
@@ -98,22 +94,22 @@ nav {
 
 	.screen-container {
 		height: 400px;
-		display: table-cell;
-		vertical-align: bottom;
 		text-align: center;
 		width: 100%;
+		margin-top: 50px;
 	}
 	.screen {
-		border-radius: 5px;
+		border-radius: 5px 5px 0 0;
 		width: 100%;
 		display: table;
 		box-shadow: 0 0 10px rgba(0,0,0,0.7);
 	}
 
 .triple {
-	padding: 100px 0;
+	padding: 100px 0 0 0;
 	text-align: center;
 	background-color: #56c3ea;
+	overflow: hidden;
 }
 
 	.triple h1 {
@@ -125,7 +121,7 @@ nav {
 		color: #ecf0f1;
 	}
 
-	.triple img {
+	.icon {
 		height: 70px;		
 		margin: 20px 0;
 	}
