@@ -84,6 +84,18 @@
 						</div>
 					</div>
 				</div>
+				<div class="row break">
+					<div class="col-md-4 portfolio-piece">
+						<h3 class="portfolio-title">Lecture Assist</h3>
+						<div class="portfolio-border">
+							<div class="portfolio-pic" style="background-image: url('img/uidesign/gesture.gif')">
+								<a title="A concept for a Google Glass app that controls your slide presentation with gestures and gives you notes on the current slide." rel="lightbox" href="img/projects/osx/osxmockup.png">
+									<div class="lightlink"></div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<?php
