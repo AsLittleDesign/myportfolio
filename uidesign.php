@@ -89,7 +89,7 @@
 						<h3 class="portfolio-title">Lecture Assist</h3>
 						<div class="portfolio-border">
 							<div class="portfolio-pic" style="background-image: url('img/uidesign/gesture.gif')">
-								<a title="A concept for a Google Glass app that controls your slide presentation with gestures and gives you notes on the current slide." rel="lightbox" href="img/projects/osx/osxmockup.png">
+								<a title="A concept for a Google Glass app that controls your slide presentation with gestures and gives you notes on the current slide." rel="lightbox" href="img/uidesign/gesture.gif">
 									<div class="lightlink"></div>
 								</a>
 							</div>
