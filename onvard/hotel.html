@@ -1,49 +1,60 @@
 <head>
 	<!-- Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="landing_test.css">
+
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
 		<!-- Bootstrap -->
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
 		<!-- JS -->
-		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 	<div id="human-resources">
 		<section class="splash" style="background-image: url('img/bellhop.jpg')">
 			<div class="dark">
-				<nav>
-					<div class="container">
-						<a target="-self" href="http://www.onvard.com"><h1 id="logo">Onvard</h1></a>
-						<!-- <ul class="navbar-right nav navbar-nav">
-							<li><a href="https://www.onvard.com/why_onvard">Why Onvard</a></li>
-							<li><a href="https://www.onvard.com/features">Features</a></li>
-							<li><a href="https://www.onvard.com/pricing">Pricing</a></li>
-						</ul> -->
-					</div>
-				</nav>
-				<div class="container content">
-					<div class="col-md-8 copy">
-						<h1>Bellhops carry a lot of weight, but their training doesn't have to.</h1>
-						<p>Managing a hotel has never been easier! With Onvard, we give you the ability to generate your own courses and introductory resources for new and current employees.</p>
-					</div>
-					<div class="col-md-4 form">
-						<form>
-							<h3>Get 25% off for your first year!</h3>
-							<label>Name</label>
-							<input autofocus placeholder="What do we call you?" class="form-control">
-							<label>Email</label>
-							<input placeholder="How can we get ahold of you?" class="form-control">
-							<button class="btn btn-warning" type="submit">Submit</button>
-						</form>
+				<div class="container">
+					<a target="-self" href="http://www.onvard.com"><h1 id="logo">Onvard <span class="logo-for">for Hotels</span></h1></a>
+					<div class="container-table">
+						<div class="content">
+							<div class="col-md-7">
+								<div class="copy">
+									<h1>Bellhops carry a lot of weight, but their training doesn't have to.</h1>
+									<p>Managing a hotel has never been easier! With Onvard, we give you the ability to generate your own courses and introductory resources for new and current employees.</p>
+								</div>
+							</div>
+							<div class="col-md-5 form">
+								<form>
+									<h3>Request a Free 14 day Trial!</h3>
+									<h4>You will also receive a 25% discount code</h4>
+									<input autofocus placeholder="Name" class="form-control">
+									<input placeholder="Email Address" class="form-control">
+									<button class="btn btn-warning form-control discount-btn" type="submit">Receive My Discount Code!</button>
+								</form>
+							</div>
+							<div class="list-career">
+								<h3>Train your<h3>
+								<ul>
+									<li>Concierge Receptionists</li>
+									<li>Bellhops</li>
+									<li>Valet Parkers</li>
+									<li>Event Managers</li>
+									<li>Hostesses</li>
+									<li>Bartenders</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<section class="triple">
 			<div class="container">
-				<h1>What Onvard does for Hotel Managers.</h1>
+				<h1 class="second header">What Onvard does for Hotel Managers.</h1>
 				<div class="col-md-4">
 					<img class="icon" src="img/create.svg">
 					<h3>Create</h3>
@@ -69,10 +80,10 @@
 		<section class="testimonials">
 			<div class="container">
 				<div class="double-feature">
-					<h3>Hotels around the world are benefitting!</h3>
+					<h3>Hotels around the world are benefiting!</h3>
 					<div class="col-md-6">
 						<div class="testimonial-box">
-							<p>"We were able to cut our training time drastically. With the ability to get employees working much quicker, we've saved thousands of dollars! Our hotel is much more efficient, and we have our new favorite tool!"</p>
+							<p><i>"We were able to cut our training time drastically. With the ability to get employees working much quicker, we've saved thousands of dollars! Our hotel is much more efficient, and we have our new favorite tool!"</i></p>
 							<div class="col-md-2">
 								<div class="profile-pic" style="background-image: url('img/profile1.jpg')"></div>
 							</div>
@@ -84,7 +95,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="testimonial-box">
-							<p>"Within minutes I was able to convert all our onboarding materials for new employees into courses. Onvard is the perfect compliment to our internal wiki."</p>
+							<p><i>"Within minutes I was able to convert all our onboarding materials for new employees into courses. Onvard is the perfect compliment to our internal wiki."</i></p>
 							<div class="col-md-2">
 								<div class="profile-pic" style="background-image: url('img/profile2.jpg')"></div>
 							</div>
@@ -98,7 +109,7 @@
 			</div>
 		</section>
 		<section id="pricing">
-			<div class="container">
+			<!-- <div class="container">
 				<div class="row header">
 					<h3>Free trial. No contract. Cancel whenever you want!</h3>
 					<p>All plans include a 14-day free trial.</p>
@@ -186,6 +197,19 @@
 						</div>
 					</div>
 				</div>
+			</div> -->
+			<div class="container">
+				<form class="row">
+					<h3>Join our mailing list and get 25% off!</h3>
+					<div class="col-md-6 col-md-offset-3">
+						<input autofocus placeholder="Name" class="form-control">
+						<input placeholder="Email" class="form-control">
+						<button class="btn btn-warning form-control discount-btn" type="submit">Recieve My Discount code!</button>
+					</div>
+				</form>
+			</div>
+			<div class="row">
+				<p>Have any questions? Shoot us an email at <a href="mailto:keith@onvard.com">keith@onvard.com.</a></p>
 			</div>
 		</section>
 	</div>
