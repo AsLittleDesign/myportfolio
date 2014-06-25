@@ -87,6 +87,7 @@ h4 {
 		font-size: 18px;
 		line-height: 30px;
 		float: left;
+		padding: 0 20px;
 	}
 
 	.content.col-md-3 {
@@ -153,7 +154,7 @@ h4 {
 .triple {
 	padding: 100px 0 0 0;
 	text-align: center;
-	background-color: #f7f7f7;
+	background-color: #ecf0f1;
 	overflow: hidden;
 }
 
