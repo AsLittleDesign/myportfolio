@@ -76,12 +76,17 @@ h3 {
 
 /*portfolio*/
 
+.portfolio-group > .row {
+    margin: 0 !important;
+}
+
 .portfolio-group h2 {
     color: #27aae1 !important;
     margin-top: 50px;
 }
 
 .portfolio-piece {
+    padding: 5px !important
 }
 
 .portfolio-piece h3 {
@@ -89,7 +94,7 @@ h3 {
 }
 
 .portfolio-border {
-    padding: 10px;
+    padding: 5px;
     background-color: #ffffff;
     border: 1px solid #e8e8e8;
     border-radius: 3px;
