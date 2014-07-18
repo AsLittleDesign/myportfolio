@@ -302,20 +302,24 @@ h3 {
 
 .description {
     position: absolute;
-    height: 0;
+    max-height: 0;
     bottom: 0;
     font-size: 0;
     width: 100%;
     overflow: hidden;
-    transition:         background-color .20s ease-in-out, height .20s ease-in-out;
-    -webkit-transition: background-color .20s ease-in-out, height .20s ease-in-out;
-    -moz-transition:    background-color .20s ease-in-out, height .20s ease-in-out;
-    -o-transition:      background-color .20s ease-in-out, height .20s ease-in-out;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    transition:         max-height .4s ease-in-out, padding-top .2s ease-in-out, padding-bottom .2s ease-in-out;
+    -webkit-transition: max-height .4s ease-in-out, padding-top .2s ease-in-out, padding-bottom .2s ease-in-out;
+    -moz-transition:    max-height .4s ease-in-out, padding-top .2s ease-in-out, padding-bottom .2s ease-in-out;
+    -o-transition:      max-height .4s ease-in-out, padding-top .2s ease-in-out, padding-bottom .2s ease-in-out;
 }
 
 .description.active {
     font-size: 14px;
-    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height: 500px !important;
     background-color: #ffffff;
 }
 
