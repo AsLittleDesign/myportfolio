@@ -6,57 +6,51 @@ $(document).ready(function(){
 	        hideLightbox();
 	});
 
-	//ui/ux
-	$(".uidesign").on("mouseover", function(){
-		$("#uidesign").addClass("active");
+	$("#lightbox").click(function(){
+		hideLightbox();
 	});
-	$(".uidesign").mouseout(function(){
-		$("#uidesign").removeClass("active");
-	})
 
-	//graphic design
-	$(".graphicdesign").on("mouseover", function(){
-		$("#graphicdesign").addClass("active");
-	});
-	$(".graphicdesign").mouseout(function(){
-		$("#graphicdesign").removeClass("active");
+	$(".hover-display").on("mouseover", function(){
+		$(this).find(".description").addClass("active");
+		$(this).parent(".portfolio-pic").addClass("active");
 	})
-
-	//photography
-	$(".photography").on("mouseover", function(){
-		$("#photography").addClass("active");
-	});
-	$(".photography").mouseout(function(){
-		$("#photography").removeClass("active");
-	})
-
-	//illustration
-	$(".illustration").on("mouseover", function(){
-		$("#illustration").addClass("active");
-	});
-	$(".illustration").mouseout(function(){
-		$("#illustration").removeClass("active");
-	})
-
-	//projects
-	$(".projects").on("mouseover", function(){
-		$("#projects").addClass("active");
-	});
-	$(".projects").mouseout(function(){
-		$("#projects").removeClass("active");
-	})
-
-	//open resources
-	$(".resources").on("mouseover", function(){
-		$("#resources").addClass("active");
-	});
-	$(".resources").mouseout(function(){
-		$("#resources").removeClass("active");
+	$(".hover-display").mouseout(function(){
+		$(this).find(".description").removeClass("active");
+		$(this).parent(".portfolio-pic").removeClass("active");
 	})
 
 	//davesmdesign redirect
 	var url = window.location;
 	if (url == "http://www.davesmdesign.com/" || url == "http://davesmdesign.com/") {
-		window.location.href = "http://www.davesmccarthy.com/";
+		url.href = "http://www.davesmccarthy.com/";
 	}
+
+	// Squares
+	var width = $(".portfolio-pic").width();
+	$(".portfolio-pic").css("height", width);
+	// Description
+	$(".description").css("top", -width);
+
+	// Side Nav
+	$(".open-nav").click(function(){
+		$(".nav-group").toggleClass("active");
+		$(".open-nav").toggleClass("active");
+		$(".nav-line").toggleClass("active");
+		$(".full-nav").toggleClass("active");
+
+		//Side Nav Links Animation 
+		$(".nav-list-item").each(function(i){
+			var listItem = $(this);
+			setTimeout(function(){
+				listItem.toggleClass("active");
+			}, i * 200);
+		});
+	})
+	
+	$(".social-hover").on("mouseover", function(){
+		$(this).parent(".network").addClass("active");
+	})
+	$(".social-hover").mouseout(function(){
+		$(this).parent(".network").removeClass("active");
+	})
 });

@@ -7,66 +7,32 @@
 		<title>Dave Scott Mccarthy</title>
 	</head>
 	<body>
-		<section id="section1">
-			<div class="container">
-				<?php
-					include('inc/nav.php');
-				?>
-				<ol class="breadcrumb">
-					<li><a href="/">Home</a></li>
-					<li class="active">Projects</li>
-				</ol>
-			</div>
-		</section>
+		<?php
+			include('inc/nav.php');
+		?>
 		<section class="portfolio-group">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 portfolio-piece">
-						<h3 class="portfolio-title">OS X 10.10 "Everest"</h3>
-						<div class="portfolio-border">
-							<div class="portfolio-pic" style="background-image: url('img/projects/osx/osx_promo.png')">
-								<div class="hover-display projects" onclick="window.location = 'osx.php';">
+						<a href="osx.php">
+							<div class="portfolio-pic" style="background-image: url('img/projects/thumb/osx.png')">		
+								<div class="hover-display">
+									<div class="hide-hover">
+										<div class="description">
+											<h3 class="portfolio-title">OS X 10.10 "Everest"</h3>
+											<p>A concept for the new Mac operating system.</p>
+										</div>
+									</div>
+									<div class="lightlink"></div>
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-4 portfolio-piece">
-						<h3 class="portfolio-title">More coming soon!</h3>
-						<div class="portfolio-border">
-							<div class="portfolio-pic" style="">
-								<div class="portfolio-placeholder"></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 portfolio-piece">
-						<div class="portfolio-pic" style=""></div>
-					</div>
-				</div>
-				<div class="row break">
-					<div class="col-md-4 portfolio-piece">
-						<div class="portfolio-pic" style=""></div>
-					</div>
-					<div class="col-md-4 portfolio-piece">
-						<div class="portfolio-pic" style=""></div>
-					</div>
-					<div class="col-md-4 portfolio-piece">
-						<div class="portfolio-pic" style=""></div>
+						</a>
 					</div>
 				</div>
 			</div>
 		</section>
 		<?php
-			include('inc/environment.php')
+			include('inc/ga.php')
 		?>
-		<script>
-			require(['skrollr'], function(skrollr){
-				var s = skrollr.init();
-				if(!isMobile()) {
-				    skrollr.init({
-				        forceHeight: false
-				    });
-				}
-			});
-        </script>
 	</body>
 </html>

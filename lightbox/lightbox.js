@@ -283,22 +283,6 @@ function initLightbox()
 			anchor.onclick = function () {showLightbox(this); return false;}
 		}
 	}
-
-	// the rest of this code inserts html at the top of the page that looks like this:
-	//
-	// <div id="overlay">
-	//		<a href="#" onclick="hideLightbox(); return false;"><img id="loadingImage" /></a>
-	//	</div>
-	// <div id="lightbox">
-	//		<a href="#" onclick="hideLightbox(); return false;" title="Click anywhere to close image">
-	//			<img id="closeButton" />		
-	//			<img id="lightboxImage" />
-	//		</a>
-	//		<div id="lightboxDetails">
-	//			<div id="lightboxCaption"></div>
-	//			<div id="keyboardMsg"></div>
-	//		</div>
-	// </div>
 	
 	var objBody = document.getElementsByTagName("body").item(0);
 	
@@ -307,7 +291,7 @@ function initLightbox()
 	objOverlay.setAttribute('id','overlay');
 	objOverlay.onclick = function () {hideLightbox(); return false;}
 	objOverlay.style.display = 'none';
-	objOverlay.style.position = 'absolute';
+	objOverlay.style.position = 'fixed';
 	objOverlay.style.top = '0';
 	objOverlay.style.left = '0';
 	objOverlay.style.zIndex = '90';
@@ -345,6 +329,7 @@ function initLightbox()
 	// create lightbox div, same note about styles as above
 	var objLightbox = document.createElement("div");
 	objLightbox.setAttribute('id','lightbox');
+	objLightbox.setAttribute('onclick', 'hideLightbox()');
 	objLightbox.style.display = 'none';
 	objLightbox.style.position = 'absolute';
 	objLightbox.style.zIndex = '100';	
@@ -361,20 +346,20 @@ function initLightbox()
 	var imgPreloadCloseButton = new Image();
 
 	// if close button image found, 
-	imgPreloadCloseButton.onload=function(){
+	// imgPreloadCloseButton.onload=function(){
 
-		var objCloseButton = document.createElement("text");
-		objCloseButton.setAttribute('id','closeButton');
-		objCloseButton.style.position = 'absolute';
-		objCloseButton.style.zIndex = '200';
-		objCloseButton.style.color = "#ffffff";
-		objCloseButton.style.right = "15px";
-		objCloseButton.style.top = "10px";
-		objCloseButton.innerHTML = "X";
-		objLink.appendChild(objCloseButton);
+	// 	var objCloseButton = document.createElement("text");
+	// 	objCloseButton.setAttribute('id','closeButton');
+	// 	objCloseButton.style.position = 'absolute';
+	// 	objCloseButton.style.zIndex = '200';
+	// 	objCloseButton.style.color = "#ffffff";
+	// 	objCloseButton.style.right = "15px";
+	// 	objCloseButton.style.top = "10px";
+	// 	objCloseButton.innerHTML = "X";
+	// 	objLink.appendChild(objCloseButton);
 
-		return false;
-	}
+	// 	return false;
+	// }
 
 	imgPreloadCloseButton.src = closeButton;
 
@@ -397,7 +382,7 @@ function initLightbox()
 	// create keyboard message
 	var objKeyboardMsg = document.createElement("div");
 	objKeyboardMsg.setAttribute('id','keyboardMsg');
-	objKeyboardMsg.innerHTML = "press 'x' or 'esc' to close";
+	objKeyboardMsg.innerHTML = "click anywhere to close";
 	objKeyboardMsg.style.color = '#ffffff';
 	objLightboxDetails.appendChild(objKeyboardMsg);
 

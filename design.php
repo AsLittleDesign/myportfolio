@@ -7,85 +7,109 @@
 		<title>Dave Scott Mccarthy</title>
 	</head>
 	<body>
-		<section id="section1">
-			<div class="container">
-				<?php
-					include('inc/nav.php');
-				?>
-				<ol class="breadcrumb">
-					<li><a href="/">Home</a></li>
-					<li class="active">Graphic Design</li>
-				</ol>
-			</div>
-		</section>
+		<?php
+			include('inc/nav.php');
+		?>
 		<section class="portfolio-group">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 portfolio-piece">
-						<h3 class="portfolio-title">Skrillex Logo Concept</h3>
-						<div class="portfolio-border">
+						<a title="A modernistic logo concept for Tri-Valley Capital." rel="lightbox" href="img/graphicdesign/tvc.png">
+							<div class="portfolio-pic" style="background-image: url('img/graphicdesign/thumb/tvc.png')">
+								<div class="hover-display">
+									<div class="hide-hover">
+										<div class="description">
+											<h3 class="portfolio-title">Tri-Valley Capital Concept</h3>
+											<p>A modernistic logo concept for Tri-Valley Capital.</p>
+										</div>
+									</div>
+									<div class="lightlink"></div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 portfolio-piece">
+						<a title="A concept in the skrillex album art style." rel="lightbox" href="img/graphicdesign/skrillex.jpg">
 							<div class="portfolio-pic" style="background-image: url('img/graphicdesign/thumb/skrillex.jpg')">
-								<a title="A concept in the skrillex album art style." rel="lightbox" href="img/graphicdesign/skrillex.jpg">
+								<div class="hover-display">
+									<div class="hide-hover">
+										<div class="description">
+											<h3 class="portfolio-title">Skrillex Logo Concept</h3>
+											<p>A concept in the skrillex album art style.</p>
+										</div>
+									</div>
 									<div class="lightlink"></div>
-								</a>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 					<div class="col-md-4 portfolio-piece">
-						<h3 class="portfolio-title">Dieter Rams App Icon</h3>
-						<div class="portfolio-border">
+						<a title="An app icon concept inspired by Dieter Rams." rel="lightbox" href="img/graphicdesign/dieterrams.png">
 							<div class="portfolio-pic" style="background-image: url('img/graphicdesign/thumb/dieterrams.png')">
-								<a title="An app icon concept inspired by Dieter Rams." rel="lightbox" href="img/graphicdesign/dieterrams.png">
+								<div class="hover-display">
+									<div class="hide-hover">
+										<div class="description">
+											<h3 class="portfolio-title">Dieter Rams App Icon</h3>
+											<p>An app icon concept inspired by Dieter Rams.</p>
+										</div>
+									</div>
 									<div class="lightlink"></div>
-								</a>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-4 portfolio-piece">
-						<h3 class="portfolio-title">Chromecast Box Redesign</h3>
-						<div class="portfolio-border">
-							<div class="portfolio-pic" style="background-image: url('img/graphicdesign/thumb/chromecast.jpg')">
-								<a title="A conceptual redesign of the chromecast box packaging." rel="lightbox" href="img/graphicdesign/chromecast.jpg">
-									<div class="lightlink"></div>
-								</a>
-							</div>
-						</div>
+						</a>
 					</div>
 				</div>
-				<div class="row break">
+				<div class="row">
 					<div class="col-md-4 portfolio-piece">
-						<h3 class="portfolio-title">Rescue Tech Logo</h3>
-						<div class="portfolio-border">
+						<a title="A conceptual redesign of the chromecast box packaging." rel="lightbox" href="img/graphicdesign/chromecast.jpg">
+							<div class="portfolio-pic" style="background-image: url('img/graphicdesign/thumb/chromecast.jpg')">
+								<div class="hover-display">
+									<div class="hide-hover">
+										<div class="description">
+											<h3 class="portfolio-title">Chromecast Box Redesign</h3>
+											<p>A conceptual redesign of the chromecast box packaging.</p>
+										</div>
+									</div>
+									<div class="lightlink"></div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 portfolio-piece">
+						<a title="A logo design for Rescue Tech Health and Safety Services." rel="lightbox" href="img/graphicdesign/rthss.png">
 							<div class="portfolio-pic" style="background-image: url('img/graphicdesign/thumb/rthss.png')">
-								<a title="A logo design for Rescue Tech Health and Safety Services." rel="lightbox" href="img/graphicdesign/rthss.png">
+								<div class="hover-display">
+									<div class="hide-hover">
+										<div class="description">
+											<h3 class="portfolio-title">Rescue Tech Logo</h3>
+											<p>A logo design for Rescue Tech Health and Safety Services.</p>
+										</div>
+									</div>
 									<div class="lightlink"></div>
-								</a>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 					<div class="col-md-4 portfolio-piece">
-						<h3 class="portfolio-title">Trutech Energy</h3>
-						<div class="portfolio-border">
+						<a title="A logo design for Trutech Energy." rel="lightbox" href="img/graphicdesign/ttelogo.png">
 							<div class="portfolio-pic" style="background-image: url('img/graphicdesign/thumb/ttesymbol.png')">
-								<a title="A logo design for Trutech Energy." rel="lightbox" href="img/graphicdesign/ttelogo.png">
+								<div class="hover-display">
+									<div class="hide-hover">
+										<div class="description">
+											<h3 class="portfolio-title">Trutech Energy</h3>
+											<p>A logo design for Trutech Energy.</p>
+										</div>
+									</div>
 									<div class="lightlink"></div>
-								</a>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-4 portfolio-piece">
-						<h3 class="portfolio-title">More coming soon!</h3>
-						<div class="portfolio-border">
-							<div class="portfolio-pic" style="">
-								<div class="portfolio-placeholder"></div>
-							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
 		</section>
 		<?php
-			include('inc/environment.php')
+			include('inc/ga.php')
 		?>
 	</body>
 </html>

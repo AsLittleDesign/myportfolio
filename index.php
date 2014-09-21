@@ -5,49 +5,46 @@
 			include('inc/head.php');
 		?>
 		<title>Dave Scott Mccarthy</title>
-		<meta name="description" content="Learn about Dave and his journey designing and creating artwork!">
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	</head>
 	<body>
-		<section id="section1">
-			<div class="container">
-				<?php
-					include('inc/nav.php');
-				?>
-				<ol class="breadcrumb">
-					<li class="active">Home</li>
-				</ol>
-			</div>
-		</section>
+		<?php
+			include('inc/nav.php');
+		?>
 		<section class="portfolio-group">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 portfolio-piece">
-						<h3 class="portfolio-title">UI/UX Design</h3>
-						<div class="portfolio-border">
-							<div class="portfolio-pic" style="background-image: url('img/uidesign/thumb/fistbump.jpg')">
-								<div class="hover-display uidesign" onclick="window.location = 'uidesign.php';">
-									<p id="uidesign" class="description col-md-12">A variety of application, and web designs that I've done.</p>
+						<div class="portfolio-pic" style="background-image: url('img/uidesign/thumb/fistbump.jpg')">
+							<div class="hover-display" onclick="window.location = 'uidesign.php';">
+								<div class="hide-hover">
+									<div class="description">
+										<h3 class="portfolio-title">User Interface Design</h3>
+										<p>A variety of unique, and interesting interface designs either commissioned, or just for fun.</p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4 portfolio-piece">
-						<h3 class="portfolio-title">Graphic Design</h3>
-						<div class="portfolio-border">
-							<div class="portfolio-pic" style="background-image: url('img/graphicdesign/thumb/skrillex.jpg')">
-								<div class="hover-display graphicdesign" onclick="window.location = 'design.php';">
-									<p id="graphicdesign" class="description col-md-12">A variety of graphic design pieces from logos to icons that I've done.</p>
+						<div class="portfolio-pic" style="background-image: url('img/graphicdesign/thumb/skrillex.jpg')">
+							<div class="hover-display" onclick="window.location = 'design.php';">
+								<div class="hide-hover">
+									<div class="description">
+										<h3 class="portfolio-title">Graphic Design</h3>
+										<p>A few random and crazy graphic design pieces varying from logos, to graphics.</p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4 portfolio-piece">
-						<h3 class="portfolio-title">Photography</h3>
-						<div class="portfolio-border">
-							<div class="portfolio-pic" style="background-image: url('img/photography/thumb/bleedingsoftly.jpg')">
-								<div class="hover-display photography" onclick="window.location = 'photography.php';">
-									<p id="photography" class="description col-md-12">Some photography and photo compositing pieces of mine that I've done.</p>
+						<div class="portfolio-pic" style="background-image: url('img/photography/thumb/bleedingsoftly.jpg')">
+							<div class="hover-display" onclick="window.location = 'photography.php';">
+								<div class="hide-hover">
+									<div class="description">
+										<h3 class="portfolio-title">Photography</h3>
+										<p>Some photography and photo compositing pieces that Dave's done over time.</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -55,80 +52,71 @@
 				</div>
 				<div class="row">
 					<div class="col-md-4 portfolio-piece">
-						<div class="portfolio-border">
-							<div class="portfolio-pic" style="background-image: url('img/illustration/thumb/jobs.jpg')">
-								<div class="hover-display illustration" onclick="window.location = 'illustration.php';">
-									<p id="illustration" class="description col-md-12">A collection of illustration pieces that I've done.</p>
+						<div class="portfolio-pic" style="background-image: url('img/illustration/thumb/jobs.jpg')">
+							<div class="hover-display" onclick="window.location = 'illustration.php';">
+								<div class="hide-hover">
+									<div class="description">
+										<h3 class="portfolio-title">Illustration</h3>
+										<p>A collection of illustration pieces done with mediums varying from Photoshop, to charcoal.</p>
+									</div>
 								</div>
 							</div>
 						</div>
-						<h3 class="portfolio-title">Illustration</h3>
 					</div>
 					<div class="col-md-4 portfolio-piece">
-						<div class="portfolio-border">
-							<div class="portfolio-pic" style="background-image: url('img/projects/osx/osx_promo.png')">
-								<div class="hover-display projects" onclick="window.location = 'projects.php';">
-									<p id="projects" class="description col-md-12">An in-depth look at a selection of my designs to describe my thought process.</p>
+						<div class="portfolio-pic" style="background-image: url('img/projects/thumb/osx.png')">
+							<div class="hover-display" onclick="window.location = 'projects.php';">
+								<div class="hide-hover">
+									<div class="description">
+										<h3 class="portfolio-title">Projects</h3>
+										<p>An in-depth look at some of Dave's designs to help show his thought process.</p>
+									</div>
 								</div>
 							</div>
 						</div>
-						<h3 class="portfolio-title">Projects</h3>
 					</div>
 					<div class="col-md-4 portfolio-piece">
-						<div class="portfolio-border">
-							<div class="portfolio-pic" style="background-image: url('img/resources/iphone.png')">
-								<div class="hover-display resources" onclick="window.location = 'resources.php';">
-									<p id="resources" class="description col-md-12">Resources I created for designers that are free to use for personal and commercial use.</p>
+						<div class="portfolio-pic" style="background-image: url('img/resources/iphone.png')">
+							<div class="hover-display" onclick="window.location = 'resources.php';">
+								<div class="hide-hover">
+									<div class="description">
+										<h3 class="portfolio-title">Open Resources</h3>
+										<p>Resources created for designers that are free to use for personal and commercial use.</p>
+									</div>
 								</div>
 							</div>
 						</div>
-						<h3 class="portfolio-title">Open Resources</h3>
 					</div>
 				</div>
 			</div>
 		</section>
 		<section id="section2">
-			<div class="container">
+			<div class="container wider-container">
 				<div class="about-container">
-					<div class="col-md-2">
-						<img src="img/self.png" class="self" alt="">
-					</div>
-					<div class="col-md-10">
-						<h3>About Me</h3>
-						<p>Hi! My name's Dave. I'm a designer from the San Francisco bay area, and I love making cool things. When I got my hands on Photoshop for the first time about 6 years ago, my life changed forever. Ever since, I have explored many different avenues in design, from photography to illustration. The area I am most passionate about, however, is user interface and user experience design. I invite you to look through my designs, and feel free to contact me about anything. I don't bite!</p>
-					</div>
+					<img src="img/self.png" class="self" alt="">
+					<h3>Dave Scott McCarthy</h3>
+					<p>Always an artist at heart, Dave has studied and practiced various practices for almost a decade. His passion lies in the design of interfaces, and how people use them. The beauty of designing something useful, something people will use over, and over is incredible. If you have any inquiries, or just want to chat, just shoot him an email!</p>
+					<a href="mailto:davesmccarthy@gmail.com">
+						<img src="img/mail.svg" alt="">davesmccarthy@gmail.com
+					</a>
+					<a href="https://twitter.com/davesmdesign">
+						<img src="img/twitter.svg" alt="">@davesmdesign
+					</a>
+					<a href="https://www.facebook.com/davesmdesign">
+						<img src="img/facebook.svg" alt="">Facebook
+					</a>
+					<a href="http://statecollege.deviantart.com/">
+						<img src="img/deviantart.svg" alt="">DeviantArt
+					</a>
+					<a href="https://www.behance.net/davesmdesign">
+						<img src="img/behance.svg" alt="">Behance
+					</a>
 				</div>
 			</div>
 		</section>
-		<section id="section4">
-			<div class="container">
-				<div class="col-md-4">
-					<div class="list-group">
-						<a class="list-group-item" href="mailto:davesmccarthy@gmail.com">
-							<img src="img/mail.svg" alt="">davesmccarthy@gmail.com
-						</a>
-						<a class="list-group-item" href="https://twitter.com/davesmdesign">
-							<img src="img/twitter.svg" alt="">@davesmdesign
-						</a>
-						<a class="list-group-item" href="https://www.facebook.com/davesmdesign">
-							<img src="img/facebook.svg" alt="">Facebook
-						</a>
-						<a class="list-group-item" href="http://statecollege.deviantart.com/">
-							<img src="img/deviantart.svg" alt="">DeviantArt
-						</a>
-						<a class="list-group-item" href="https://www.behance.net/davesmdesign">
-							<img src="img/behance.svg" alt="">Behance
-						</a>
-					</div>
-				</div>
-				<div class="col-md-8">
-					<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/davesmdesign" data-widget-id="477014420577456128">Tweets by @davesmdesign</a>
-				</div>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-			</div>
-		</section>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		<?php
-			include('inc/environment.php')
+			include ('inc/ga.php')
 		?>
 	</body>
 </html>

@@ -7,19 +7,10 @@
 		<title>OS X 10.10 "Everest"</title>
 	</head>
 	<body>
-	<div id="fb-root"></div>
-		<section id="section1">
-			<div class="container">
-				<?php
-					include('inc/nav.php');
-				?>
-    			<ol class="breadcrumb">
-					<li><a href="/">Home</a></li>
-					<li><a href="/resources.php">Projects</a></li>
-					<li class="active">OS X 10.10 "Everest"</li>
-				</ol>
-			</div>
-		</section>
+		<div id="fb-root"></div>
+		<?php
+			include('inc/nav.php');
+		?>
 		<section class="article">
 			<div class="container">
 				<div class="col-md-8 col-md-offset-2">
@@ -120,7 +111,7 @@
 		</section>
 		
 		<?php
-			include('inc/environment.php')
+			include('inc/ga.php')
 		?>
 	</body>
 </html>
