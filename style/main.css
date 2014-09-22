@@ -151,8 +151,8 @@ section {
 }
 
 .nav-list-item {
-    padding: 15px 0;
-    text-align: center;
+    padding: 15px 0 15px 50px;
+    text-align: left;
     list-style: none;
     margin-left: -450px;
     color: #bdc3c7;
