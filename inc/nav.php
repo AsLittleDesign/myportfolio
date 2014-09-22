@@ -14,17 +14,17 @@
 				<a href="resources.php"><li class="nav-list-item">Open Resources</li></a>
 			</ul>
 			<div class="social-nav">
-				<a class="network behance" href="">
+				<a class="network behance" href="https://www.behance.net/davesmdesign">
 					<div class="social-hover network-middle">
 						<img class="social-hover" src="img/behance-white.svg">
 					</div>
 				</a>
-				<a class="network deviantart" href="">
+				<a class="network deviantart" href="http://statecollege.deviantart.com/">
 					<div class="social-hover network-middle">
 						<img class="social-hover" src="img/deviantart-white.svg">
 					</div>
 				</a>
-				<a class="network facebook" href="">
+				<a class="network facebook" href="https://www.facebook.com/davesmdesign">
 					<div class="social-hover network-middle">
 						<img class="social-hover" src="img/facebook-white.svg">
 					</div>
