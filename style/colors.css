@@ -19,10 +19,10 @@
 	left: 0;
 	right: 0;
 	margin: auto;
-	-webkit-animation: ripple .7s ease-out; /* Safari 4+ */
-	-moz-animation:    ripple .7s ease-out; /* Fx 5+ */
-	-o-animation:      ripple .7s ease-out; /* Opera 12+ */
-	animation:         ripple .7s ease-out; /* IE 10+, Fx 29+ */
+	-webkit-animation: ripple .6s ease-out; /* Safari 4+ */
+	-moz-animation:    ripple .6s ease-out; /* Fx 5+ */
+	-o-animation:      ripple .6s ease-out; /* Opera 12+ */
+	animation:         ripple .6s ease-out; /* IE 10+, Fx 29+ */
 }
 
 /*Keyframes*/
