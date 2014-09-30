@@ -42,7 +42,7 @@ section {
 }
 
 ::selection {
-  background: #1abc9c; /* WebKit/Blink Browsers */
+  background: #3498db; /* WebKit/Blink Browsers */
   color: #fff;
 }
 
@@ -346,6 +346,7 @@ section {
     height: 100%;
     cursor: pointer;
     border-radius: 2px;
+    overflow: hidden;
     transition:         background-color .35s ease-in-out;
     -webkit-transition: background-color .35s ease-in-out;
     -moz-transition:    background-color .35s ease-in-out;
