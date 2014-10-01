@@ -166,6 +166,9 @@ function listenKey () {	document.onkeypress = getKey; }
 function showLightbox(objLink)
 {
 	// prep objects
+	var bodyElem = document.getElementsByTagName('body').item(0);
+	//disable scrolling
+	bodyElem.setAttribute('class', 'no-scroll');
 	var objOverlay = document.getElementById('overlay');
 	var objLightbox = document.getElementById('lightbox');
 	var objCaption = document.getElementById('lightboxCaption');
@@ -173,7 +176,6 @@ function showLightbox(objLink)
 	var objLoadingImage = document.getElementById('loadingImage');
 	var objLightboxDetails = document.getElementById('lightboxDetails');
 
-	
 	var arrayPageSize = getPageSize();
 	var arrayPageScroll = getPageScroll();
 
@@ -254,6 +256,8 @@ function hideLightbox()
 	// hide lightbox and overlay
 	objOverlay.style.display = 'none';
 	objLightbox.style.display = 'none';
+	var objBody = document.getElementsByTagName('body').item(0);
+	objBody.removeAttribute('class', 'no-scroll');
 	
 	// disable keypress listener
 	document.onkeypress = '';

@@ -47,7 +47,6 @@ $(document).ready(function() {
 		color = "#3498db";
 		var div = "<div class='ripple-container' style='top:" + (y - 100) + "px; left:" + (x - 100) + "px;'><div class='ripple' style='border-color:" + color + "'></div></div>"
 		$("body").append(div);
-		console.log(color);
 		setTimeout(function(){
 			$(".ripple-container").fadeOut(function(){
 				$(this).remove();
