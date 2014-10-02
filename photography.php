@@ -44,7 +44,7 @@
 						</a>
 					</div>
 					<div class="col-md-4 portfolio-piece">
-						<a title="Amazing hope, and inspiration in the eyes of a young girl." rel="lightbox" href="img/photography/spot.jpg">
+						<a title="Abstract, yet full of emotion and character. The movement of liquid is fascinating." rel="lightbox" href="img/photography/spot.jpg">
 							<div class="portfolio-pic" style="background-image: url('img/photography/thumb/spot.jpg')">
 								<div class="hover-display">
 									<div class="hide-hover">

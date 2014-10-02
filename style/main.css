@@ -444,55 +444,6 @@ section {
     cursor: pointer;
 }
 
-
-#lightbox {
-    width: 100%;
-    height: 100%;
-    left: 0 !important;
-    top: 0 !important;
-    position: fixed !important;
-    text-align: center;
-    background-color: transparent !important;
-    z-index: 100;
-}
-
-#lightbox a {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    float: left;
-}
-
-#lightbox img {
-    max-height: 91%;
-    width: auto;
-    max-width: 100%;
-    position: absolute !important;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-#lightboxDetails {
-    width: auto !important;
-}
-
-#lightboxCaption {
-    float: initial !important;
-    color: #ffffff;
-    font-size: 16px;
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 10px;
-}
-
-#closeButton {
-    font-size: 17px;
-}
-
 .list-group-item {
     border-color: #e8e8e8 !important;
 }
@@ -533,12 +484,6 @@ section {
 
 .description.active {
     top: 0 !important;
-}
-
-#overlay {
-    background-image: none !important;
-    background-color: rgba(0,0,0,.90);
-    z-index: 100 !important;
 }
 
 #keyboardMsg {
