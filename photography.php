@@ -14,6 +14,53 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 portfolio-piece">
+						<a title="One of my shots from my Yosemite trip. There's nothing better than waking up to this." rel="lightbox" href="img/photography/cliff.jpg">
+							<div class="portfolio-pic" style="background-image: url('img/photography/thumb/cliff.jpg')">
+								<div class="hover-display">
+									<div class="hide-hover">
+										<div class="description">
+											<h3 class="portfolio-title">Sheer</h3>
+											<p>One of my shots from my Yosemite trip. There's nothing better than waking up to this.</p>
+										</div>
+									</div>
+									<div class="lightlink"></div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 portfolio-piece">
+						<a title="Amazing hope, and inspiration in the eyes of a young girl." rel="lightbox" href="img/photography/tree.jpg">
+							<div class="portfolio-pic" style="background-image: url('img/photography/thumb/tree.jpg')">
+								<div class="hover-display">
+									<div class="hide-hover">
+										<div class="description">
+											<h3 class="portfolio-title">Lone Tree</h3>
+											<p>A lone tree on the cliffside. It's amazing how resilient these trees are.</p>
+										</div>
+									</div>
+									<div class="lightlink"></div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 portfolio-piece">
+						<a title="An amazing view in the heart of Yosemite Valley." rel="lightbox" href="img/photography/valley.jpg">
+							<div class="portfolio-pic" style="background-image: url('img/photography/thumb/valley.jpg')">
+								<div class="hover-display">
+									<div class="hide-hover">
+										<div class="description">
+											<h3 class="portfolio-title">The Valley</h3>
+											<p>An amazing view in the heart of Yosemite Valley.</p>
+										</div>
+									</div>
+									<div class="lightlink"></div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 portfolio-piece">
 						<a title="There's something inherently elegant about a rose." rel="lightbox" href="img/photography/bleedingsoftly.jpg">
 							<div class="portfolio-pic" style="background-image: url('img/photography/thumb/bleedingsoftly.jpg')">
 								<div class="hover-display">
