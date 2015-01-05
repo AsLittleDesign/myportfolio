@@ -19,7 +19,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Tri-Valley Capital Concept</h3>
+											<h3>Tri-Valley Capital Concept</h3>
 											<p>A modernistic logo concept for Tri-Valley Capital.</p>
 										</div>
 									</div>
@@ -34,7 +34,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Skrillex Logo Concept</h3>
+											<h3>Skrillex Logo Concept</h3>
 											<p>A concept in the skrillex album art style.</p>
 										</div>
 									</div>
@@ -49,7 +49,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Dieter Rams App Icon</h3>
+											<h3>Dieter Rams App Icon</h3>
 											<p>An app icon concept inspired by Dieter Rams.</p>
 										</div>
 									</div>
@@ -66,7 +66,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Chromecast Box Redesign</h3>
+											<h3>Chromecast Box Redesign</h3>
 											<p>A conceptual redesign of the chromecast box packaging.</p>
 										</div>
 									</div>
@@ -81,7 +81,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Rescue Tech Logo</h3>
+											<h3>Rescue Tech Logo</h3>
 											<p>A logo design for Rescue Tech Health and Safety Services.</p>
 										</div>
 									</div>
@@ -96,7 +96,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Trutech Energy</h3>
+											<h3>Trutech Energy</h3>
 											<p>A logo design for Trutech Energy.</p>
 										</div>
 									</div>

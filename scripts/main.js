@@ -30,27 +30,59 @@ $(document).ready(function(){
 	$(".portfolio-pic").css("height", width);
 	// Description
 	$(".description").css("top", -width);
-
-	// Side Nav
-	$(".open-nav").click(function(){
-		$(".nav-group").toggleClass("active");
-		$(".open-nav").toggleClass("active");
-		$(".nav-line").toggleClass("active");
-		$(".full-nav").toggleClass("active");
-
-		//Side Nav Links Animation 
-		$(".nav-list-item").each(function(i){
-			var listItem = $(this);
-			setTimeout(function(){
-				listItem.toggleClass("active");
-			}, i * 200);
-		});
-	})
 	
+	// Social links
 	$(".social-hover").on("mouseover", function(){
 		$(this).parent(".network").addClass("active");
 	})
 	$(".social-hover").mouseout(function(){
 		$(this).parent(".network").removeClass("active");
 	})
+
+	// Section padding
+	var hasPortfolio = $(".portfolio-group");
+	if (hasPortfolio.length >= 1) {
+		var padding = $(".portfolio-group > .container").css("margin");
+		var padding = padding.split(" ");
+		var padding = padding[padding.length - 1];
+		var padding = parseFloat(padding);
+		$(".portfolio-group").css("padding-top", padding * .5 + "px");
+		$(".portfolio-group").css("padding-bottom", padding * .5 + "px");
+	}
+
+	// Nav parallax
+	$(window).bind('scroll',function(e){
+		var homeLocation = window.location.href;
+		var homeLocation = homeLocation.split("/");
+		var homeLocation = homeLocation[homeLocation.length - 1];
+	    if (homeLocation == "") {
+		    parallaxScroll();
+		}
+	});
+
+	$('.scroll').click(function(){
+	    $("html, body").animate({ 
+	    	scrollTop: $(window).height()
+	    }, 600);
+	});
+
+	function parallaxScroll(){
+	    var scrolled = $(window).scrollTop();
+	    $('.parallax-nav').css('opacity',((scrolled*.001)-$(window).height()*.0001));
+	};
+
+	$(".line-container").click(function(){
+		$(".line-icon, .portfolio-group, .nav-group, .x-container, .line-container").toggleClass('active');
+	});
+
+	// WORKAROUND: converting 90vh to px
+	var element = $('.splash');
+	function fixMobileSafariViewport() {
+	  $element.css('height', window.innerHeight * 0.9);
+	}
+	// listen to portrait/landscape changes
+	window.addEventListener('orientationchange', fixMobileSafariViewport, true);
+	fixMobileSafariViewport();
+
+	var IS_MOBILE_SAFARI_7 = !!navigator.userAgent.match(/i(Pad|Phone|Pod).+(Version\/7\.\d+ Mobile)/i);
 });

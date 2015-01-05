@@ -19,7 +19,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Steve Jobs Portrait</h3>
+											<h3>Steve Jobs Portrait</h3>
 											<p>A charcoal portrait of Steve Jobs.</p>
 										</div>
 									</div>
@@ -34,7 +34,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Far Away</h3>
+											<h3>Far Away</h3>
 											<p>A surreal landscape painting done with photoshop.</p>
 										</div>
 									</div>
@@ -49,7 +49,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Yoda</h3>
+											<h3>Yoda</h3>
 											<p>A digital painting done of the Yoda statue located in the LucasFilm campus in the presidio.</p>
 										</div>
 									</div>
@@ -66,7 +66,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">War</h3>
+											<h3>War</h3>
 											<p>A drawing of a war setting done with ink and Photoshop.</p>
 										</div>
 									</div>
@@ -81,7 +81,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Heat</h3>
+											<h3>Heat</h3>
 											<p>A drawing of a missile in a city setting done with ink and Photoshop.</p>
 										</div>
 									</div>
@@ -96,7 +96,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Remember Everything</h3>
+											<h3>Remember Everything</h3>
 											<p>A drawing inspired by the song 'Remember Everything' done in Photoshop.</p>
 										</div>
 									</div>

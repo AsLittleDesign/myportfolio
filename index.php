@@ -7,10 +7,54 @@
 		<title>Dave Scott Mccarthy</title>
 	</head>
 	<body>
+		<div class="splash">
+			<div class="black-background">
+				<div class="perfect-center-table">
+					<div class="table-cell">
+						<div class="container">
+							<a href="/"><img class="logo" src="img/logo.svg" alt=""></a>
+							<h1>DAVE SCOTT McCARTHY</h1>
+							<h4>Always an artist at heart, Dave has studied and practiced various 
+								practices for almost a decade. His passion lies in the design of 
+								interfaces, and how people use them. The beauty of designing something 
+								useful, something people will use over, and over is incredible. If you 
+								have any inquiries, or just want to chat, just shoot him an email!</h4>
+								<div class="about-container">
+									<a href="mailto:davesmccarthy@gmail.com">
+										<img src="img/mail.svg" alt="">
+										<span>davesmccarthy@gmail.com</span>
+									</a>
+									<a href="https://twitter.com/davesmdesign">
+										<img src="img/twitter.svg" alt="">
+										<span>@davesmdesign</span>
+									</a>
+									<a href="https://www.facebook.com/davesmdesign">
+										<img src="img/facebook.svg" alt="">
+										<span>Facebook</span>
+									</a>
+									<a href="http://statecollege.deviantart.com/">
+										<img src="img/deviantart.svg" alt="">
+										<span>DeviantArt</span>
+									</a>
+									<a href="https://www.behance.net/davesmdesign">
+										<img src="img/behance.svg" alt="">
+										<span>Behance</span>
+									</a>
+								</div>
+								<div class="scroll">
+									<p>Scroll Down</p>
+									<div class="arrow-down"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<?php
 			include('inc/nav.php');
 		?>
-		<section class="portfolio-group">
+		<section class="portfolio-group splash-margin">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 portfolio-piece">
@@ -18,7 +62,7 @@
 							<div class="hover-display" onclick="window.location = 'uidesign.php';">
 								<div class="hide-hover">
 									<div class="description">
-										<h3 class="portfolio-title">User Interface Design</h3>
+										<h3>User Interface Design</h3>
 										<p>A variety of unique, and interesting interface designs either commissioned, or just for fun.</p>
 									</div>
 								</div>
@@ -30,7 +74,7 @@
 							<div class="hover-display" onclick="window.location = 'design.php';">
 								<div class="hide-hover">
 									<div class="description">
-										<h3 class="portfolio-title">Graphic Design</h3>
+										<h3>Graphic Design</h3>
 										<p>A few random and crazy graphic design pieces varying from logos, to graphics.</p>
 									</div>
 								</div>
@@ -42,7 +86,7 @@
 							<div class="hover-display" onclick="window.location = 'photography.php';">
 								<div class="hide-hover">
 									<div class="description">
-										<h3 class="portfolio-title">Photography</h3>
+										<h3>Photography</h3>
 										<p>Some photography and photo compositing pieces that Dave's done over time.</p>
 									</div>
 								</div>
@@ -56,7 +100,7 @@
 							<div class="hover-display" onclick="window.location = 'illustration.php';">
 								<div class="hide-hover">
 									<div class="description">
-										<h3 class="portfolio-title">Illustration</h3>
+										<h3>Illustration</h3>
 										<p>A collection of illustration pieces done with mediums varying from Photoshop, to charcoal.</p>
 									</div>
 								</div>
@@ -68,7 +112,7 @@
 							<div class="hover-display" onclick="window.location = 'projects.php';">
 								<div class="hide-hover">
 									<div class="description">
-										<h3 class="portfolio-title">Projects</h3>
+										<h3>Projects</h3>
 										<p>An in-depth look at some of Dave's designs to help show his thought process.</p>
 									</div>
 								</div>
@@ -80,37 +124,13 @@
 							<div class="hover-display" onclick="window.location = 'resources.php';">
 								<div class="hide-hover">
 									<div class="description">
-										<h3 class="portfolio-title">Open Resources</h3>
+										<h3>Open Resources</h3>
 										<p>Resources created for designers that are free to use for personal and commercial use.</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</section>
-		<section id="section2">
-			<div class="container wider-container">
-				<div class="about-container">
-					<img src="img/self.png" class="self" alt="">
-					<h3>Dave Scott McCarthy</h3>
-					<p>Always an artist at heart, Dave has studied and practiced various practices for almost a decade. His passion lies in the design of interfaces, and how people use them. The beauty of designing something useful, something people will use over, and over is incredible. If you have any inquiries, or just want to chat, just shoot him an email!</p>
-					<a href="mailto:davesmccarthy@gmail.com">
-						<img src="img/mail.svg" alt="">davesmccarthy@gmail.com
-					</a>
-					<a href="https://twitter.com/davesmdesign">
-						<img src="img/twitter.svg" alt="">@davesmdesign
-					</a>
-					<a href="https://www.facebook.com/davesmdesign">
-						<img src="img/facebook.svg" alt="">Facebook
-					</a>
-					<a href="http://statecollege.deviantart.com/">
-						<img src="img/deviantart.svg" alt="">DeviantArt
-					</a>
-					<a href="https://www.behance.net/davesmdesign">
-						<img src="img/behance.svg" alt="">Behance
-					</a>
 				</div>
 			</div>
 		</section>

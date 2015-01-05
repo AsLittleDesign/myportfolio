@@ -19,7 +19,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Geodometer API Documentation</h3>
+											<h3>Geodometer API Documentation</h3>
 											<p>API documentation that I designed for our team at Startup Weekend.</p>
 										</div>
 									</div>
@@ -34,7 +34,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Smart Alarm</h3>
+											<h3>Smart Alarm</h3>
 											<p>An application design done for an alarm clock app.</p>
 										</div>
 									</div>
@@ -49,7 +49,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Fist bump</h3>
+											<h3>Fist bump</h3>
 											<p>A concept for a social connection app named, 'Fist Bump'.</p>
 										</div>
 									</div>
@@ -66,7 +66,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">OS X 10.10 "Everest"</h3>
+											<h3>OS X 10.10 "Everest"</h3>
 											<p>A concept for OS X 10.10. See the full concept in 'Projects'</p>
 										</div>
 									</div>
@@ -81,7 +81,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Moto360 Design Face-Off Submission</h3>
+											<h3>Moto360 Design Face-Off Submission</h3>
 											<p>My submission into the Moto360 watch face concept competition. Was second place out of 1300 submissions.</p>
 										</div>
 									</div>
@@ -96,7 +96,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Lecture Assist</h3>
+											<h3>Lecture Assist</h3>
 											<p>A concept for a Google Glass app that controls your slide presentation with gestures and gives you notes on the current slide.</p>
 										</div>
 									</div>

@@ -19,7 +19,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">OS X 10.10 "Everest"</h3>
+											<h3>OS X 10.10 "Everest"</h3>
 											<p>A concept for the new Mac operating system.</p>
 										</div>
 									</div>

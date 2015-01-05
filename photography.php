@@ -19,7 +19,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Sheer</h3>
+											<h3>Sheer</h3>
 											<p>One of my shots from my Yosemite trip. There's nothing better than waking up to this.</p>
 										</div>
 									</div>
@@ -34,7 +34,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Lone Tree</h3>
+											<h3>Lone Tree</h3>
 											<p>A lone tree on the cliffside. It's amazing how resilient these trees are.</p>
 										</div>
 									</div>
@@ -49,7 +49,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">The Valley</h3>
+											<h3>The Valley</h3>
 											<p>An amazing view in the heart of Yosemite Valley.</p>
 										</div>
 									</div>
@@ -66,7 +66,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Bleeding Softly</h3>
+											<h3>Bleeding Softly</h3>
 											<p>There's something inherently elegant about a rose.</p>
 										</div>
 									</div>
@@ -81,7 +81,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Emily</h3>
+											<h3>Emily</h3>
 											<p>Amazing hope, and inspiration in the eyes of a young girl.</p>
 										</div>
 									</div>
@@ -96,7 +96,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Flow</h3>
+											<h3>Flow</h3>
 											<p>Abstract, yet full of emotion and character. The movement of liquid is fascinating.</p>
 										</div>
 									</div>
@@ -113,7 +113,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">They Come to Snuff the Rooster</h3>
+											<h3>They Come to Snuff the Rooster</h3>
 											<p>Inspired by the Alice in Chains song, this picture explores the nature of mankind, and it's regrets.</p>
 										</div>
 									</div>
@@ -128,7 +128,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Dragonfly</h3>
+											<h3>Dragonfly</h3>
 											<p>What a beautiful, and often overlooked creature.</p>
 										</div>
 									</div>
@@ -143,7 +143,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">As it Falls</h3>
+											<h3>As it Falls</h3>
 											<p>An emotional landscape shot as a storm brews.</p>
 										</div>
 									</div>
@@ -160,7 +160,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Humble Worker</h3>
+											<h3>Humble Worker</h3>
 											<p>Ahh, the wonders of nature.</p>
 										</div>
 									</div>
@@ -175,7 +175,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Taking Flight</h3>
+											<h3>Taking Flight</h3>
 											<p>A bee, on his way to complete his mission.</p>
 										</div>
 									</div>
@@ -190,7 +190,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Megan</h3>
+											<h3>Megan</h3>
 											<p>An expressive portrait that represents the emergence of the counterculture.</p>
 										</div>
 									</div>
@@ -207,7 +207,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Strum</h3>
+											<h3>Strum</h3>
 											<p>Music, in it's many forms, is a beautiful thing.</p>
 										</div>
 									</div>
@@ -222,7 +222,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Whisp</h3>
+											<h3>Whisp</h3>
 											<p>An almost still life photo that attempts to capture the beauty of smoke.</p>
 										</div>
 									</div>
@@ -237,7 +237,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Lizard</h3>
+											<h3>Lizard</h3>
 											<p>Awh! Just look at this little guy!</p>
 										</div>
 									</div>
@@ -254,7 +254,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Eye</h3>
+											<h3>Eye</h3>
 											<p>Because every photography portfolio needs a picture of an eye!</p>
 										</div>
 									</div>
@@ -269,7 +269,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Glow</h3>
+											<h3>Glow</h3>
 											<p>She just looks so happy!</p>
 										</div>
 									</div>
@@ -284,7 +284,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Cat Tails</h3>
+											<h3>Cat Tails</h3>
 											<p>Nature is absolutely beautiful.</p>
 										</div>
 									</div>

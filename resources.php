@@ -19,7 +19,7 @@
 								<div class="hover-display">
 									<div class="hide-hover">
 										<div class="description">
-											<h3 class="portfolio-title">Vector iPhone 5s Mockups</h3>
+											<h3>Vector iPhone 5s Mockups</h3>
 											<p>A vector resource that's free for you to use.</p>
 										</div>
 									</div>
