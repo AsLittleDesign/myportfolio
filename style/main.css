@@ -368,6 +368,10 @@ a:hover {
     background-attachment: fixed;
 }
 
+.article {
+    margin-left: 300px;
+}
+
 .article h1 {
     margin-top: 100px;
 }
