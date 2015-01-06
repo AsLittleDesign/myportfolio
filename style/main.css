@@ -550,7 +550,7 @@ a:hover {
 .line-container {
     padding: 7px;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 5px;
     width: 40px;
     height: 40px;
