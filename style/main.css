@@ -501,6 +501,7 @@ a:hover {
 
 .arrow-down {
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
     width: 10px;
     height: 10px;
     position: absolute;
@@ -595,10 +596,12 @@ a:hover {
 
 .line-icon:first-child.active {
     transform: rotate(45deg) translate(6px, 7px);
+    -webkit-transform: rotate(45deg) translate(6px, 7px);
 }
 
 .line-icon:nth-child(2).active {
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
     opacity: 0;
 }
 
@@ -608,6 +611,7 @@ a:hover {
 
 .line-icon:last-child.active {
     transform: rotate(-45deg) translate(6px, -7px);
+    -webkit-transform: rotate(-45deg) translate(6px, -7px);
 }
 
 .nav-group {
