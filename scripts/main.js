@@ -60,16 +60,17 @@ $(document).ready(function(){
 		}
 	});
 
+	function parallaxScroll(){
+	    var scrolled = $(window).scrollTop();
+	    var height = $(window).height();
+	    $('.parallax-nav').css('opacity', scrolled / height);
+	};
+
 	$('.scroll').click(function(){
 	    $("html, body").animate({ 
 	    	scrollTop: $(window).height()
 	    }, 600);
 	});
-
-	function parallaxScroll(){
-	    var scrolled = $(window).scrollTop();
-	    $('.parallax-nav').css('opacity',((scrolled*.001)-$(window).height()*.0001));
-	};
 
 	$(".line-container").click(function(){
 		$(".line-icon, .portfolio-group, .nav-group, .x-container, .line-container").toggleClass('active');

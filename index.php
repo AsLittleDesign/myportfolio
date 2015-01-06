@@ -7,6 +7,9 @@
 		<title>Dave Scott Mccarthy</title>
 	</head>
 	<body>
+		<?php
+			include('inc/nav.php');
+		?>
 		<div class="splash">
 			<div class="black-background">
 				<div class="perfect-center-table">
@@ -51,9 +54,6 @@
 				</div>
 			</div>
 		</div>
-		<?php
-			include('inc/nav.php');
-		?>
 		<section class="portfolio-group splash-margin">
 			<div class="container">
 				<div class="row">

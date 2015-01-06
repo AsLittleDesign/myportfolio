@@ -1,11 +1,11 @@
-<div class="nav-group">
-	<div class="line-container">
-		<div class="x-container">
-			<div class="line-icon"></div>
-			<div class="line-icon"></div>
-			<div class="line-icon"></div>
-		</div>
+<div class="line-container">
+	<div class="x-container">
+		<div class="line-icon"></div>
+		<div class="line-icon"></div>
+		<div class="line-icon"></div>
 	</div>
+</div>
+<div class="nav-group">
 	<div class="nav">
 		<div class="black-background">
 			<div class="parallax-nav">
